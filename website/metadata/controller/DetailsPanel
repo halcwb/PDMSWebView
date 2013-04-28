@@ -1,0 +1,36 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "DetailsPanel"
+    },
+    "designerId": "57f49ced-114d-4b6a-bb77-0993b1b42be4",
+    "cn": [
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "setDetails",
+                "fn": "setDetails",
+                "designer|params": [
+                    "itemId"
+                ],
+                "implHandler": [
+                    "var details = Ext.ComponentQuery.query('#detailspanel')[0];\r",
+                    "\r",
+                    "details.getLayout().setActiveItem(itemId);\r",
+                    ""
+                ]
+            },
+            "designerId": "f183bb25-f895-498a-8d46-8eac44e8441c"
+        }
+    ]
+}

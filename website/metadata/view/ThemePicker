@@ -1,0 +1,23 @@
+{
+    "type": "Ext.form.field.ComboBox",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ThemePicker",
+        "designer|userAlias": "themepicker",
+        "fieldLabel": "Theme",
+        "labelWidth": 60,
+        "displayField": "name",
+        "store": [
+            "Themes"
+        ],
+        "valueField": "url"
+    },
+    "configAlternates": {
+        "store": "array"
+    },
+    "designerId": "45c7da1f-b3b6-4365-a11a-cd239514f307"
+}

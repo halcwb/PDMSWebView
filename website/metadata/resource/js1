@@ -1,0 +1,12 @@
+{
+    "type": "jsresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "url": "http://localhost/PDMSWebView/website/app/ux/grid/menu/ListMenu.js"
+    },
+    "designerId": "860f4851-872a-4d11-8011-161197be57fe"
+}

@@ -1,0 +1,38 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Tools"
+    },
+    "designerId": "3a3ad2bf-e4c9-419d-9424-1054e434788b",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onButtonClick",
+                "fn": "onButtonClick",
+                "implHandler": [
+                    "var bar = Ext.ComponentQuery.query('#pdmswebviewtools')[0];\r",
+                    "console.log(bar);\r",
+                    "bar.hidden = !bar.hidden;\r",
+                    "console.log(bar);\r",
+                    ""
+                ],
+                "name": "click",
+                "scope": "me",
+                "designer|targetType": "Ext.button.Button",
+                "designer|controlQuery": "#toolstoggle"
+            },
+            "designerId": "409b2c20-39af-4bec-a3fe-bf5c1ffb3c82"
+        }
+    ]
+}

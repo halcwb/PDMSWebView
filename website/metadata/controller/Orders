@@ -1,0 +1,59 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Orders"
+    },
+    "designerId": "8d164103-68ec-4114-82e9-8aada84df07a",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onCycleChange",
+                "fn": "onCycleChange",
+                "implHandler": [
+                    "var patient = this.getController('Patients').getCurrentPatient();\r",
+                    "\r",
+                    "if (patient) {\r",
+                    "    this.loadOrders(patient.HospitalNumber);\r",
+                    "}"
+                ],
+                "name": "change",
+                "scope": "me",
+                "designer|targetType": "Ext.button.Cycle",
+                "designer|controlQuery": "cycle"
+            },
+            "designerId": "9c45b16f-9924-41c7-a79c-1ca0cf6fce0a"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "loadOrders",
+                "fn": "loadOrders",
+                "designer|params": [
+                    "hospNum"
+                ],
+                "implHandler": [
+                    "var active = Ext.ComponentQuery.query('#cycleActiveOrders')[0].getActiveItem().text;\r",
+                    "\r",
+                    "Ext.StoreMgr.get('Orders').load({params:{hospitalNumber: hospNum, active: active}});"
+                ]
+            },
+            "designerId": "619ccadc-580c-4426-a510-f56e462b682b"
+        }
+    ]
+}

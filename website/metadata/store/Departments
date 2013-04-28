@@ -1,0 +1,47 @@
+{
+    "type": "xmlstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "model": "Department",
+        "storeId": "DepartmentsStore",
+        "designer|userClassName": "Departments"
+    },
+    "designerId": "2b680bb8-d5bb-4395-85fc-47e4c3fed379",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyAjaxProxy",
+                "url": "http://localhost/PDMSwebservices/departments.asmx/GetDepartments"
+            },
+            "designerId": "7dcf675c-e5ad-4e75-a156-e5cc400f0cc0",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Xml",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "idProperty": "",
+                        "root": "root",
+                        "designer|userClassName": "MyXmlReader",
+                        "record": "Department"
+                    },
+                    "designerId": "9c149ec4-2c2e-4c75-95dd-a2f5a5a8087e"
+                }
+            ]
+        }
+    ]
+}

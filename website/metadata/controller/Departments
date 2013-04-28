@@ -1,0 +1,38 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Departments"
+    },
+    "designerId": "0fd565c7-25fb-4d37-954b-6185087709fd",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onTreepanelItemClick",
+                "fn": "onTreepanelItemClick",
+                "implHandler": [
+                    "var store = Ext.StoreMgr.get(\"Patients\");\r",
+                    "\r",
+                    "store.load({params:{department:record.data.text}});\r",
+                    "\r",
+                    "this.getController('DetailsPanel').setDetails('patientinfolist');"
+                ],
+                "name": "itemclick",
+                "scope": "me",
+                "designer|targetType": "DepartmentTree",
+                "designer|controlQuery": "treepanel"
+            },
+            "designerId": "a8828af1-7969-45c1-b395-1d82c24720b1"
+        }
+    ]
+}

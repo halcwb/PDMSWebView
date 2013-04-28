@@ -1,0 +1,12 @@
+{
+    "type": "jsresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "url": "http://localhost/PDMSWebView/website/app/ux/grid/FiltersFeature.js"
+    },
+    "designerId": "a370aacd-11c9-407c-a525-cbb28c23cf6f"
+}

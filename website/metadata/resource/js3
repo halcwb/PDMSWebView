@@ -1,0 +1,12 @@
+{
+    "type": "jsresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "url": "http://localhost/PDMSWebView/website/app/ux/grid/filter/BooleanFilter.js"
+    },
+    "designerId": "69da894e-ced4-4f16-a74a-5b2ba02545e9"
+}

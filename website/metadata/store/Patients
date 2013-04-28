@@ -1,0 +1,47 @@
+{
+    "type": "xmlstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": false,
+        "model": "PatientInfo",
+        "storeId": "MyXmlStore1",
+        "designer|userClassName": "Patients"
+    },
+    "designerId": "c97788b1-dbc0-49b0-979f-f200d640c113",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyAjaxProxy2",
+                "url": "http://localhost/PDMSwebservices/patients.asmx/GetPatients"
+            },
+            "designerId": "5e050b2d-40cd-43c9-8094-1c220ffc3fbe",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Xml",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "idProperty": "ID",
+                        "root": "root",
+                        "designer|userClassName": "MyXmlReader2",
+                        "record": "PatientInfo"
+                    },
+                    "designerId": "3e948e9a-e793-44c0-92a9-c3c773658fee"
+                }
+            ]
+        }
+    ]
+}

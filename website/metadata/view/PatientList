@@ -1,0 +1,207 @@
+{
+    "type": "Ext.grid.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PatientList",
+        "designer|userAlias": "patientlist",
+        "title": "Patients",
+        "store": "Patients"
+    },
+    "designerId": "c534f5a0-4ad4-4a04-b556-b377ee1c6305",
+    "cn": [
+        {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "width": 60,
+                "designer|userClassName": "MyNumberColumn",
+                "dataIndex": "Number",
+                "text": "No",
+                "format": "0,000"
+            },
+            "designerId": "724df6b6-ddd4-4334-ada6-f2c0a4a92dd7"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn1",
+                "dataIndex": "BedId",
+                "text": "Bed Id"
+            },
+            "designerId": "d3d271e1-f62b-43a3-8f27-7e28e8c947fb"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn1",
+                "dataIndex": "HospitalNumber",
+                "text": "Hosp No"
+            },
+            "designerId": "883b0ee6-0079-463c-a42d-710f213576cb"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "width": 150,
+                "designer|userClassName": "MyColumn1",
+                "dataIndex": "LastName",
+                "text": "Last Name"
+            },
+            "designerId": "7b05e62b-72ba-48a0-91dd-d2948ba763c6"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "width": 150,
+                "designer|userClassName": "MyColumn1",
+                "dataIndex": "FirstName",
+                "text": "First Name"
+            },
+            "designerId": "ff0dda6b-aeaf-4ca2-b744-b2e67b5c7f78"
+        },
+        {
+            "type": "Ext.grid.column.Date",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyDateColumn",
+                "dataIndex": "BirthDate",
+                "text": "Birth Date"
+            },
+            "designerId": "cc62c391-601e-4ac1-97df-97ae8fc19595"
+        },
+        {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "width": 50,
+                "designer|userClassName": "MyNumberColumn",
+                "dataIndex": "Age",
+                "text": "Age",
+                "format": "0,000"
+            },
+            "designerId": "b73b58d2-797f-4327-b1ff-a5151641425d"
+        },
+        {
+            "type": "Ext.grid.column.Number",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "width": 50,
+                "designer|userClassName": "MyNumberColumn",
+                "dataIndex": "Weight",
+                "text": "Weight",
+                "format": "0,000"
+            },
+            "designerId": "36c3d763-86a4-4e18-a1bf-e7fa45390261"
+        },
+        {
+            "type": "Ext.grid.column.Date",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyDateColumn",
+                "dataIndex": "AdmissionDate",
+                "text": "Admission Date"
+            },
+            "designerId": "916c9345-dcf3-4008-a52d-d7a4f7c79dae"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "width": 150,
+                "designer|userClassName": "MyColumn1",
+                "dataIndex": "MainSpecialism",
+                "text": "Specialism"
+            },
+            "designerId": "a5ab0bf6-f6a0-47cf-9dc7-75de89561e6a"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn1",
+                "dataIndex": "Physician",
+                "text": "Physician"
+            },
+            "designerId": "ec5791f6-ea38-4764-97d8-db99ab7f844d"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn1",
+                "dataIndex": "AdmissionDiagonosis",
+                "text": "Diagnosis",
+                "flex": 1
+            },
+            "designerId": "c67b40bd-0740-470f-be7b-ae248cbd77b1"
+        },
+        {
+            "type": "Ext.grid.View",
+            "reference": {
+                "name": "viewConfig",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyGridView1"
+            },
+            "designerId": "b466a0da-3a1b-4d74-b03f-751e35ad46e8"
+        }
+    ]
+}

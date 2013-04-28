@@ -1,0 +1,46 @@
+{
+    "type": "Ext.grid.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "width": 150,
+        "designer|userClassName": "DepartmentList",
+        "designer|userAlias": "departments",
+        "title": "List",
+        "forceFit": true,
+        "store": "Departments"
+    },
+    "designerId": "4c95801d-978b-4930-94f6-0ce07416f48b",
+    "cn": [
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "width": 164,
+                "designer|userClassName": "MyColumn",
+                "dataIndex": "Name",
+                "text": "Department"
+            },
+            "designerId": "b528c4f2-6519-4dd3-9e7e-bc7c60623e33"
+        },
+        {
+            "type": "Ext.grid.View",
+            "reference": {
+                "name": "viewConfig",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyGridView"
+            },
+            "designerId": "835afe73-1d52-4362-a16d-f4332345c5af"
+        }
+    ]
+}

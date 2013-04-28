@@ -1,0 +1,34 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Themes"
+    },
+    "designerId": "fa418b1a-9ead-4702-b016-b3e37065825b",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onComboboxSelect",
+                "fn": "onComboboxSelect",
+                "implHandler": [
+                    "Ext.util.CSS.swapStyleSheet('theme', records[0].data.url);"
+                ],
+                "name": "select",
+                "scope": "me",
+                "designer|targetType": "ThemePicker",
+                "designer|controlQuery": "combobox"
+            },
+            "designerId": "58d40c07-fe68-4571-b186-c821d427f643"
+        }
+    ]
+}

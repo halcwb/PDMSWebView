@@ -1,0 +1,66 @@
+{
+    "type": "Ext.tab.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": 250,
+        "width": 400,
+        "designer|userClassName": "DepartmentTabPanel",
+        "designer|userAlias": "departmenttabpanel",
+        "activeTab": 0
+    },
+    "designerId": "89cd18a8-1781-4719-a999-acdbe8917d78",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "designerId": "e4cc0e75-5ac1-44b7-8e17-27480dc93dcd",
+            "masterInstanceId": "4c95801d-978b-4930-94f6-0ce07416f48b",
+            "cn": [
+                {
+                    "type": "Ext.tab.Tab",
+                    "reference": {
+                        "name": "tabConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "TabConfig"
+                    },
+                    "designerId": "6f385a11-3ba1-400e-887f-a73484187a57"
+                }
+            ]
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "designerId": "1daa05ef-aa4e-4b9d-9ab9-24aef39d77c8",
+            "masterInstanceId": "d6b835d4-eb0d-4639-b791-4343bf18d0e7",
+            "cn": [
+                {
+                    "type": "Ext.tab.Tab",
+                    "reference": {
+                        "name": "tabConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "TabConfig1"
+                    },
+                    "designerId": "8520ee0d-d146-4275-afa6-f85f47c4cd56"
+                }
+            ]
+        }
+    ]
+}

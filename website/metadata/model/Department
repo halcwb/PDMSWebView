@@ -1,0 +1,57 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Department"
+    },
+    "designerId": "b2187503-a2fd-4462-8ee0-6c498d9a5cbb",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "mapping": "ID",
+                "name": "id",
+                "type": "int",
+                "designer|userClassName": "MyField"
+            },
+            "designerId": "faf29e99-7adc-4d4a-a9eb-c0cab7b5068b"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Name",
+                "type": "string",
+                "designer|userClassName": "MyField1"
+            },
+            "designerId": "ea8a7158-4c1d-43a8-99fb-44a95d6f1232"
+        },
+        {
+            "type": "Ext.data.association.HasMany",
+            "reference": {
+                "name": "hasMany",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "model": "PatientInfo",
+                "designer|userClassName": "MyHasManyAssociation",
+                "designer|displayName": "hasManyPatientInfo"
+            },
+            "designerId": "41337a05-c649-4377-b206-5a0bdaff9b26"
+        }
+    ]
+}

@@ -1,0 +1,196 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PatientInfo"
+    },
+    "designerId": "c51d6acd-9773-4398-ab5a-e2d489bdfa3e",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ID",
+                "designer|userClassName": "MyField4"
+            },
+            "designerId": "e19aa94c-7f98-4cb9-8a50-a807ca313fd0"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Number",
+                "designer|userClassName": "MyField4"
+            },
+            "designerId": "f9aa54db-2b08-46ef-93d1-e676f7d72766"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "HospitalNumber",
+                "designer|userClassName": "MyField5"
+            },
+            "designerId": "ed1151cc-fe2a-4d88-8bcc-540002a7545f"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "LastName",
+                "designer|userClassName": "MyField6"
+            },
+            "designerId": "8370451e-67f9-49fa-8c07-33a7978a461e"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "FirstName",
+                "designer|userClassName": "MyField7"
+            },
+            "designerId": "e37eaa52-275f-4ab8-98e5-a136bb0f2aad"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "BirthDate",
+                "designer|userClassName": "MyField8"
+            },
+            "designerId": "c3819a03-02c3-4a56-8129-21cc8fdf9c15"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "AdmissionDate",
+                "designer|userClassName": "MyField9"
+            },
+            "designerId": "e6131377-7e79-47f8-be85-d2bf8c03c124"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Age",
+                "designer|userClassName": "MyField10"
+            },
+            "designerId": "be04b73f-9ad5-4a57-a4f1-2f6153674863"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "MainSpecialism",
+                "designer|userClassName": "MyField11"
+            },
+            "designerId": "68845598-8704-4a73-9039-82e7a3972f1f"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "AdmissionDiagonosis",
+                "designer|userClassName": "MyField12"
+            },
+            "designerId": "a9a6a51c-39a9-457e-b891-89c05bb9d1b3"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Physician",
+                "designer|userClassName": "MyField13"
+            },
+            "designerId": "fb520161-62e7-4744-8e8d-42fe0655eb70"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "BedId",
+                "designer|userClassName": "MyField14"
+            },
+            "designerId": "915d487a-8532-4e45-a3b8-d419a2a147be"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Weight",
+                "designer|userClassName": "MyField15"
+            },
+            "designerId": "7dd0c6de-b5f4-4844-bd71-b72e78b97aea"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Department",
+                "designer|userClassName": "MyField15"
+            },
+            "designerId": "8dad9397-86e7-4a2a-95bf-cd25ae2539b7"
+        }
+    ]
+}

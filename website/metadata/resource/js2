@@ -1,0 +1,12 @@
+{
+    "type": "jsresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "url": "http://localhost/PDMSWebView/website/app/ux/grid/menu/RangeMenu.js"
+    },
+    "designerId": "2ba031ed-89ae-454f-9828-5e793999f31f"
+}

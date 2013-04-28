@@ -1,0 +1,73 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Patients"
+    },
+    "designerId": "371dd9f6-c9ef-4da9-9fe2-2cab42de3a91",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onGridpanelItemClick",
+                "fn": "onGridpanelItemClick",
+                "implHandler": [
+                    "this.setCurrentPatient(record.data);\r",
+                    "\r",
+                    "this.getController('DetailsPanel').setDetails('patientrecord');\r",
+                    "this.getController('Orders').loadOrders(this.getCurrentPatient().HospitalNumber, 'Active');\r",
+                    ""
+                ],
+                "name": "itemclick",
+                "scope": "me",
+                "designer|targetType": "PatientList",
+                "designer|controlQuery": "#patientinfolist"
+            },
+            "designerId": "ce8df9a2-d6d8-4216-87a1-bf7895473e54"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "setCurrentPatient",
+                "fn": "setCurrentPatient",
+                "designer|params": [
+                    "patient"
+                ],
+                "implHandler": [
+                    "this.currentPatient = patient;"
+                ]
+            },
+            "designerId": "8d71c86e-b1a4-4b09-adaa-b0cba119da0f"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "getCurrentPatient",
+                "fn": "getCurrentPatient",
+                "implHandler": [
+                    "return this.currentPatient;"
+                ]
+            },
+            "designerId": "e87d70bf-235a-4475-ae65-68cbb763c880"
+        }
+    ]
+}

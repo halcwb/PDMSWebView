@@ -1,0 +1,114 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PDMSWebView",
+        "designer|initialView": true,
+        "layout": "border"
+    },
+    "designerId": "fe4c6779-333e-45e3-b05d-984a77caa5d6",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "width": 222,
+                "collapseDirection": "left",
+                "collapsible": true,
+                "layout|collapseMode": "header",
+                "layout|region": "west"
+            },
+            "designerId": "06dd73f0-9e29-42fb-a007-f7ffef8c5a15",
+            "masterInstanceId": "89cd18a8-1781-4719-a999-acdbe8917d78"
+        },
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "north",
+                "height": 70,
+                "itemId": "pdmswebviewtitle",
+                "designer|userClassName": "MyPanel",
+                "collapsed": true,
+                "collapsible": true,
+                "title": "PDMS Web View",
+                "titleCollapse": false
+            },
+            "designerId": "ba915ca3-7e36-4ffc-ba8f-e92b8495ef15",
+            "cn": [
+                {
+                    "type": "Ext.panel.Tool",
+                    "reference": {
+                        "name": "tools",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "toolstoggle",
+                        "designer|userClassName": "MyTool",
+                        "type": "gear"
+                    },
+                    "designerId": "8964b808-9215-4373-b522-ed41593a46d5"
+                },
+                {
+                    "type": "Ext.toolbar.Toolbar",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "top",
+                        "itemId": "pdmswebviewtools",
+                        "designer|userClassName": "MyToolbar"
+                    },
+                    "designerId": "f21e3659-f2ec-4a43-8934-eef0ae415101",
+                    "cn": [
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "frame": false,
+                                "labelAlign": "right",
+                                "emptyText": "Pick A Theme",
+                                "layout|flex": null
+                            },
+                            "designerId": "c4912b43-7213-455c-bfb9-13ce37528b4f",
+                            "masterInstanceId": "45c7da1f-b3b6-4365-a11a-cd239514f307"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "detailspanel",
+                "layout|region": "center"
+            },
+            "designerId": "b2b99972-b14d-4e5d-bf01-2a79cbcce509",
+            "masterInstanceId": "fd912b13-754e-4517-9b47-b2a86ec1d258"
+        }
+    ]
+}

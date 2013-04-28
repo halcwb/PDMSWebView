@@ -1,0 +1,45 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "itemId": "detailpanel",
+        "designer|userClassName": "DetailPanel",
+        "designer|userAlias": "mypanel11",
+        "layout": "card",
+        "title": null,
+        "titleCollapse": true
+    },
+    "designerId": "fd912b13-754e-4517-9b47-b2a86ec1d258",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "patientinfolist"
+            },
+            "designerId": "5749d200-4df3-44fb-85db-8d7e5ea91df9",
+            "masterInstanceId": "c534f5a0-4ad4-4a04-b556-b377ee1c6305"
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "patientrecord"
+            },
+            "designerId": "84808a92-b584-4403-8ed8-8a21d08d3a5c",
+            "masterInstanceId": "a7b9f490-ac80-4ea9-8bfd-18c67c1a097f"
+        }
+    ]
+}

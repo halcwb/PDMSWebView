@@ -1,0 +1,50 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "storeId": "MyStore",
+        "designer|userClassName": "Themes",
+        "data": [
+            "[\r",
+            "    { name: 'Classic', url: 'http://localhost/ExtJs-4.2.0/resources/css/ext-all.css'},\r",
+            "    { name: 'Neptune', url: 'http://localhost/ExtJs-4.2.0/resources/css/ext-all-neptune.css'},\r",
+            "    { name: 'Access' , url: 'http://localhost/ExtJs-4.2.0/resources/css/ext-all-access.css'},\r",
+            "    { name: 'Gray'   , url: 'http://localhost/ExtJs-4.2.0/resources/css/ext-all-gray.css'}\r",
+            "]\r",
+            ""
+        ]
+    },
+    "designerId": "1b933046-55f2-4852-a6da-5ca0570a4f89",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "name",
+                "designer|userClassName": "MyField2"
+            },
+            "designerId": "0ef27d2a-e9fe-4536-aa68-f179a83f70d8"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "url",
+                "designer|userClassName": "MyField3"
+            },
+            "designerId": "f5e39717-5da2-4fa7-a5c3-038caf99ab35"
+        }
+    ]
+}

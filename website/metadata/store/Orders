@@ -1,0 +1,48 @@
+{
+    "type": "xmlstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "model": "Order",
+        "storeId": "MyXmlStore2",
+        "designer|userClassName": "Orders"
+    },
+    "designerId": "c7cb8032-722c-4a0e-a932-2745471d46bc",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyAjaxProxy3",
+                "extraParams": [
+                    "{hospitalNumber: '987593'}"
+                ],
+                "url": "http://localhost/PDMSwebservices/orders.asmx/GetPatientOrders"
+            },
+            "designerId": "3fd78593-7cb9-4afd-a715-f2b765a084be",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Xml",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "root",
+                        "designer|userClassName": "MyXmlReader3",
+                        "record": "Order"
+                    },
+                    "designerId": "5d806a06-c797-4ba1-b98d-6af309a01928"
+                }
+            ]
+        }
+    ]
+}

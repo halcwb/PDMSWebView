@@ -1,0 +1,53 @@
+{
+    "type": "xmltreestore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "model": null,
+        "storeId": "departmentTreeStore",
+        "designer|userClassName": "DepartmentTree",
+        "root": [
+            "{\r",
+            "    text: 'Departments',\r",
+            "    id: 'data'\r",
+            "}"
+        ]
+    },
+    "designerId": "ce096478-6da4-4113-885a-b876fd80256e",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyAjaxProxy1",
+                "url": "http://localhost/PDMSwebservices/departments.asmx/GetDepartmentTree"
+            },
+            "designerId": "616b5a18-55db-478d-95e1-e870949cc944",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Xml",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "idProperty": "",
+                        "root": "root",
+                        "designer|userClassName": "MyXmlReader1",
+                        "record": "record"
+                    },
+                    "designerId": "f946ca17-5985-43b7-9ddb-ebf74f2fe991"
+                }
+            ]
+        }
+    ]
+}

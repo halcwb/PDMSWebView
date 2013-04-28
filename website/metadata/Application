@@ -1,0 +1,72 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Department",
+            "PatientInfo",
+            "Order"
+        ],
+        "stores": [
+            "Departments",
+            "DepartmentTree",
+            "Themes",
+            "Patients",
+            "Orders"
+        ],
+        "views": [
+            "PDMSWebView",
+            "DepartmentTree",
+            "DepartmentList",
+            "DepartmentTabPanel",
+            "ThemePicker",
+            "DetailPanel",
+            "PatientList",
+            "PatientRecord",
+            "Orders"
+        ],
+        "autoCreateViewport": true,
+        "controllers": [
+            "Departments",
+            "Themes",
+            "Tools",
+            "Patients",
+            "DetailsPanel",
+            "Orders"
+        ],
+        "name": "PDMSWebView"
+    },
+    "designerId": "application",
+    "cn": [
+        {
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "launch",
+                "fn": "launch",
+                "implHandler": [
+                    "Ext.Ajax.cors = true;\r",
+                    "Ext.Ajax.useDefaultXhrHeader = false;\r",
+                    "Ext.Ajax.useDefaultHeader = false;\r",
+                    "Ext.Ajax.disableCaching = false;"
+                ]
+            },
+            "designerId": "242429f8-cc59-4698-97db-f9aebe3feffb",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "laun",
+                    "type": "string"
+                }
+            ]
+        }
+    ]
+}

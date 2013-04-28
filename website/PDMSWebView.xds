@@ -1,0 +1,284 @@
+{
+    "name": "PDMSWebView",
+    "settings": {
+        "spacesToIndent": 4,
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "urlPrefix": "http://localhost/PDMSWebView/website/",
+        "exportPath": "",
+        "buildShouldOverwriteIndex": true
+    },
+    "xdsVersion": "2.2.1",
+    "xdsBuild": 951,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000500,
+    "framework": "ext42",
+    "topInstanceFileMap": {
+        "3e73bda5-699f-409f-a032-04ddbd001ddb": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "2b680bb8-d5bb-4395-85fc-47e4c3fed379": {
+            "paths": [
+                "metadata/store/Departments",
+                "app/store/override/Departments.js",
+                "app/store/Departments.js"
+            ],
+            "className": "Departments"
+        },
+        "b2187503-a2fd-4462-8ee0-6c498d9a5cbb": {
+            "paths": [
+                "metadata/model/Department",
+                "app/model/override/Department.js",
+                "app/model/Department.js"
+            ],
+            "className": "Department"
+        },
+        "fe4c6779-333e-45e3-b05d-984a77caa5d6": {
+            "paths": [
+                "metadata/view/PDMSWebView",
+                "app/view/override/PDMSWebView.js",
+                "app/view/PDMSWebView.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "PDMSWebView"
+        },
+        "ce096478-6da4-4113-885a-b876fd80256e": {
+            "paths": [
+                "metadata/store/DepartmentTree",
+                "app/store/override/DepartmentTree.js",
+                "app/store/DepartmentTree.js"
+            ],
+            "className": "DepartmentTree"
+        },
+        "d6b835d4-eb0d-4639-b791-4343bf18d0e7": {
+            "paths": [
+                "metadata/view/DepartmentTree",
+                "app/view/override/DepartmentTree.js",
+                "app/view/DepartmentTree.js"
+            ],
+            "className": "DepartmentTree"
+        },
+        "4c95801d-978b-4930-94f6-0ce07416f48b": {
+            "paths": [
+                "metadata/view/DepartmentList",
+                "app/view/override/DepartmentList.js",
+                "app/view/DepartmentList.js"
+            ],
+            "className": "DepartmentList"
+        },
+        "0fd565c7-25fb-4d37-954b-6185087709fd": {
+            "paths": [
+                "metadata/controller/Departments",
+                "app/controller/override/Departments.js",
+                "app/controller/Departments.js"
+            ],
+            "className": "Departments"
+        },
+        "89cd18a8-1781-4719-a999-acdbe8917d78": {
+            "paths": [
+                "metadata/view/DepartmentTabPanel",
+                "app/view/override/DepartmentTabPanel.js",
+                "app/view/DepartmentTabPanel.js"
+            ],
+            "className": "DepartmentTabPanel"
+        },
+        "1b933046-55f2-4852-a6da-5ca0570a4f89": {
+            "paths": [
+                "metadata/store/Themes",
+                "app/store/override/Themes.js",
+                "app/store/Themes.js"
+            ],
+            "className": "Themes"
+        },
+        "45c7da1f-b3b6-4365-a11a-cd239514f307": {
+            "paths": [
+                "metadata/view/ThemePicker",
+                "app/view/override/ThemePicker.js",
+                "app/view/ThemePicker.js"
+            ],
+            "className": "ThemePicker"
+        },
+        "fa418b1a-9ead-4702-b016-b3e37065825b": {
+            "paths": [
+                "metadata/controller/Themes",
+                "app/controller/override/Themes.js",
+                "app/controller/Themes.js"
+            ],
+            "className": "Themes"
+        },
+        "c51d6acd-9773-4398-ab5a-e2d489bdfa3e": {
+            "paths": [
+                "metadata/model/PatientInfo",
+                "app/model/override/PatientInfo.js",
+                "app/model/PatientInfo.js"
+            ],
+            "className": "PatientInfo"
+        },
+        "c97788b1-dbc0-49b0-979f-f200d640c113": {
+            "paths": [
+                "metadata/store/Patients",
+                "app/store/override/Patients.js",
+                "app/store/Patients.js"
+            ],
+            "className": "Patients"
+        },
+        "3a3ad2bf-e4c9-419d-9424-1054e434788b": {
+            "paths": [
+                "metadata/controller/Tools",
+                "app/controller/override/Tools.js",
+                "app/controller/Tools.js"
+            ],
+            "className": "Tools"
+        },
+        "fd912b13-754e-4517-9b47-b2a86ec1d258": {
+            "paths": [
+                "metadata/view/DetailPanel",
+                "app/view/override/DetailPanel.js",
+                "app/view/DetailPanel.js"
+            ],
+            "className": "DetailPanel"
+        },
+        "c534f5a0-4ad4-4a04-b556-b377ee1c6305": {
+            "paths": [
+                "metadata/view/PatientList",
+                "app/view/override/PatientList.js",
+                "app/view/PatientList.js"
+            ],
+            "className": "PatientList"
+        },
+        "c7cb8032-722c-4a0e-a932-2745471d46bc": {
+            "paths": [
+                "metadata/store/Orders",
+                "app/store/override/Orders.js",
+                "app/store/Orders.js"
+            ],
+            "className": "Orders"
+        },
+        "371dd9f6-c9ef-4da9-9fe2-2cab42de3a91": {
+            "paths": [
+                "metadata/controller/Patients",
+                "app/controller/override/Patients.js",
+                "app/controller/Patients.js"
+            ],
+            "className": "Patients"
+        },
+        "0ab9919a-51f8-4990-ad77-832b4a546999": {
+            "paths": [
+                "metadata/model/Order",
+                "app/model/override/Order.js",
+                "app/model/Order.js"
+            ],
+            "className": "Order"
+        },
+        "a7b9f490-ac80-4ea9-8bfd-18c67c1a097f": {
+            "paths": [
+                "metadata/view/PatientRecord",
+                "app/view/override/PatientRecord.js",
+                "app/view/PatientRecord.js"
+            ],
+            "className": "PatientRecord"
+        },
+        "57f49ced-114d-4b6a-bb77-0993b1b42be4": {
+            "paths": [
+                "metadata/controller/DetailsPanel",
+                "app/controller/override/DetailsPanel.js",
+                "app/controller/DetailsPanel.js"
+            ],
+            "className": "DetailsPanel"
+        },
+        "8d164103-68ec-4114-82e9-8aada84df07a": {
+            "paths": [
+                "metadata/controller/Orders",
+                "app/controller/override/Orders.js",
+                "app/controller/Orders.js"
+            ],
+            "className": "Orders"
+        },
+        "a370aacd-11c9-407c-a525-cbb28c23cf6f": {
+            "paths": [
+                "metadata/resource/js"
+            ],
+            "className": "js"
+        },
+        "860f4851-872a-4d11-8011-161197be57fe": {
+            "paths": [
+                "metadata/resource/js1"
+            ],
+            "className": "js1"
+        },
+        "2ba031ed-89ae-454f-9828-5e793999f31f": {
+            "paths": [
+                "metadata/resource/js2"
+            ],
+            "className": "js2"
+        },
+        "69da894e-ced4-4f16-a74a-5b2ba02545e9": {
+            "paths": [
+                "metadata/resource/js3"
+            ],
+            "className": "js3"
+        },
+        "ad58561c-0e31-4ad3-a42a-8a303218b9c8": {
+            "paths": [
+                "metadata/resource/js4"
+            ],
+            "className": "js4"
+        },
+        "8d3c2693-4ff1-497b-ab1e-18806fa46945": {
+            "paths": [
+                "metadata/view/Orders",
+                "app/view/override/Orders.js",
+                "app/view/Orders.js"
+            ],
+            "className": "Orders"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "fe4c6779-333e-45e3-b05d-984a77caa5d6",
+            "d6b835d4-eb0d-4639-b791-4343bf18d0e7",
+            "4c95801d-978b-4930-94f6-0ce07416f48b",
+            "89cd18a8-1781-4719-a999-acdbe8917d78",
+            "45c7da1f-b3b6-4365-a11a-cd239514f307",
+            "fd912b13-754e-4517-9b47-b2a86ec1d258",
+            "c534f5a0-4ad4-4a04-b556-b377ee1c6305",
+            "a7b9f490-ac80-4ea9-8bfd-18c67c1a097f",
+            "8d3c2693-4ff1-497b-ab1e-18806fa46945"
+        ],
+        "store": [
+            "2b680bb8-d5bb-4395-85fc-47e4c3fed379",
+            "ce096478-6da4-4113-885a-b876fd80256e",
+            "1b933046-55f2-4852-a6da-5ca0570a4f89",
+            "c97788b1-dbc0-49b0-979f-f200d640c113",
+            "c7cb8032-722c-4a0e-a932-2745471d46bc"
+        ],
+        "controller": [
+            "0fd565c7-25fb-4d37-954b-6185087709fd",
+            "fa418b1a-9ead-4702-b016-b3e37065825b",
+            "3a3ad2bf-e4c9-419d-9424-1054e434788b",
+            "371dd9f6-c9ef-4da9-9fe2-2cab42de3a91",
+            "57f49ced-114d-4b6a-bb77-0993b1b42be4",
+            "8d164103-68ec-4114-82e9-8aada84df07a"
+        ],
+        "model": [
+            "b2187503-a2fd-4462-8ee0-6c498d9a5cbb",
+            "c51d6acd-9773-4398-ab5a-e2d489bdfa3e",
+            "0ab9919a-51f8-4990-ad77-832b4a546999"
+        ],
+        "resource": [
+            "3e73bda5-699f-409f-a032-04ddbd001ddb",
+            "a370aacd-11c9-407c-a525-cbb28c23cf6f",
+            "860f4851-872a-4d11-8011-161197be57fe",
+            "2ba031ed-89ae-454f-9828-5e793999f31f",
+            "69da894e-ced4-4f16-a74a-5b2ba02545e9",
+            "ad58561c-0e31-4ad3-a42a-8a303218b9c8"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

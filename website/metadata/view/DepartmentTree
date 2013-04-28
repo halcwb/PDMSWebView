@@ -1,0 +1,29 @@
+{
+    "type": "Ext.tree.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "DepartmentTree",
+        "designer|userAlias": "DepartmentTree",
+        "title": "Tree",
+        "store": "DepartmentTree"
+    },
+    "designerId": "d6b835d4-eb0d-4639-b791-4343bf18d0e7",
+    "cn": [
+        {
+            "type": "Ext.tree.View",
+            "reference": {
+                "name": "viewConfig",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTreeView"
+            },
+            "designerId": "0a4378e1-e849-49b3-bf41-f6d907c48fec"
+        }
+    ]
+}
