@@ -1,0 +1,56 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Generic"
+    },
+    "designerId": "766b173c-b99d-43fd-a4c2-e751bb85d8d1",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ID",
+                "type": "string",
+                "designer|userClassName": "MyField30"
+            },
+            "designerId": "ef287d76-d7d0-4541-ad3d-bb8f2923a931"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Name",
+                "type": "string",
+                "designer|userClassName": "MyField31"
+            },
+            "designerId": "f1a995e9-f732-44be-b1e0-8f7eb97709a4"
+        },
+        {
+            "type": "Ext.data.association.HasMany",
+            "reference": {
+                "name": "hasMany",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "model": "Route",
+                "designer|userClassName": "MyHasManyAssociation2",
+                "designer|displayName": "hasManyRoute"
+            },
+            "designerId": "e1daab4d-14e9-4f3a-8ac5-eddcaf18bac2"
+        }
+    ]
+}

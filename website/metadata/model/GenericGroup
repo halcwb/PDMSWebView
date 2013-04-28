@@ -1,0 +1,56 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "GenericGroup"
+    },
+    "designerId": "457060b2-2ec6-4802-9ffc-a25301eb1d8d",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ID",
+                "type": "string",
+                "designer|userClassName": "MyField28"
+            },
+            "designerId": "959a6bd2-472e-41ac-ac4d-e26bf7f5cee6"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Name",
+                "type": "string",
+                "designer|userClassName": "MyField29"
+            },
+            "designerId": "8594ce6c-2d15-44e1-8ec0-122382f76bb6"
+        },
+        {
+            "type": "Ext.data.association.HasMany",
+            "reference": {
+                "name": "hasMany",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "model": "Generic",
+                "designer|userClassName": "MyHasManyAssociation3",
+                "designer|displayName": "hasManyGeneric"
+            },
+            "designerId": "8b22fb43-9849-4bc1-8522-131393e4beeb"
+        }
+    ]
+}

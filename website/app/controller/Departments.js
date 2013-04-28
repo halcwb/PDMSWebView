@@ -26,7 +26,7 @@ Ext.define('PDMSWebView.controller.Departments', {
 
     init: function(application) {
         this.control({
-            "treepanel": {
+            "departmenttree": {
                 itemclick: this.onTreepanelItemClick
             }
         });

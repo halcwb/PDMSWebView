@@ -235,6 +235,70 @@
                 "app/view/Orders.js"
             ],
             "className": "Orders"
+        },
+        "766b173c-b99d-43fd-a4c2-e751bb85d8d1": {
+            "paths": [
+                "metadata/model/Generic",
+                "app/model/override/Generic.js",
+                "app/model/Generic.js"
+            ],
+            "className": "Generic"
+        },
+        "749dd779-3c2e-4392-a873-ff2c5b2d9141": {
+            "paths": [
+                "metadata/model/Product",
+                "app/model/override/Product.js",
+                "app/model/Product.js"
+            ],
+            "className": "Product"
+        },
+        "bebee6c4-509e-4589-ac8c-53bf5bd2488b": {
+            "paths": [
+                "metadata/model/Route",
+                "app/model/override/Route.js",
+                "app/model/Route.js"
+            ],
+            "className": "Route"
+        },
+        "8dacd087-8f29-47ba-ae4d-0fd357ea638f": {
+            "paths": [
+                "metadata/model/TherapeuticGroup",
+                "app/model/override/TherapeuticGroup.js",
+                "app/model/TherapeuticGroup.js"
+            ],
+            "className": "TherapeuticGroup"
+        },
+        "457060b2-2ec6-4802-9ffc-a25301eb1d8d": {
+            "paths": [
+                "metadata/model/GenericGroup",
+                "app/model/override/GenericGroup.js",
+                "app/model/GenericGroup.js"
+            ],
+            "className": "GenericGroup"
+        },
+        "78876b05-f500-48a1-853a-1172c8ae9482": {
+            "paths": [
+                "metadata/store/DrugRepository",
+                "app/store/override/DrugRepository.js",
+                "app/store/DrugRepository.js"
+            ],
+            "className": "DrugRepository"
+        },
+        "ed446f99-018e-4469-9ad2-f2417793ffdb": {
+            "paths": [
+                "metadata/model/TreeRecord",
+                "app/model/override/TreeRecord.js",
+                "app/model/TreeRecord.js"
+            ],
+            "className": "TreeRecord"
+        },
+        "2c7d0a7c-c2e1-44d0-bdcd-dd4cf9591706": {
+            "paths": [
+                "metadata/view/DrugRepository",
+                "app/view/override/DrugRepository.js",
+                "app/view/DrugRepository.js"
+            ],
+            "className": "DrugRepository"
         }
     },
     "viewOrderMap": {
@@ -247,14 +311,16 @@
             "fd912b13-754e-4517-9b47-b2a86ec1d258",
             "c534f5a0-4ad4-4a04-b556-b377ee1c6305",
             "a7b9f490-ac80-4ea9-8bfd-18c67c1a097f",
-            "8d3c2693-4ff1-497b-ab1e-18806fa46945"
+            "8d3c2693-4ff1-497b-ab1e-18806fa46945",
+            "2c7d0a7c-c2e1-44d0-bdcd-dd4cf9591706"
         ],
         "store": [
             "2b680bb8-d5bb-4395-85fc-47e4c3fed379",
             "ce096478-6da4-4113-885a-b876fd80256e",
             "1b933046-55f2-4852-a6da-5ca0570a4f89",
             "c97788b1-dbc0-49b0-979f-f200d640c113",
-            "c7cb8032-722c-4a0e-a932-2745471d46bc"
+            "c7cb8032-722c-4a0e-a932-2745471d46bc",
+            "78876b05-f500-48a1-853a-1172c8ae9482"
         ],
         "controller": [
             "0fd565c7-25fb-4d37-954b-6185087709fd",
@@ -265,9 +331,15 @@
             "8d164103-68ec-4114-82e9-8aada84df07a"
         ],
         "model": [
+            "766b173c-b99d-43fd-a4c2-e751bb85d8d1",
+            "749dd779-3c2e-4392-a873-ff2c5b2d9141",
+            "bebee6c4-509e-4589-ac8c-53bf5bd2488b",
+            "8dacd087-8f29-47ba-ae4d-0fd357ea638f",
+            "457060b2-2ec6-4802-9ffc-a25301eb1d8d",
             "b2187503-a2fd-4462-8ee0-6c498d9a5cbb",
             "c51d6acd-9773-4398-ab5a-e2d489bdfa3e",
-            "0ab9919a-51f8-4990-ad77-832b4a546999"
+            "0ab9919a-51f8-4990-ad77-832b4a546999",
+            "ed446f99-018e-4469-9ad2-f2417793ffdb"
         ],
         "resource": [
             "3e73bda5-699f-409f-a032-04ddbd001ddb",

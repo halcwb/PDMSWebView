@@ -22,14 +22,16 @@ Ext.application({
     models: [
         'Department',
         'PatientInfo',
-        'Order'
+        'Order',
+        'TreeRecord'
     ],
     stores: [
         'Departments',
         'DepartmentTree',
         'Themes',
         'Patients',
-        'Orders'
+        'Orders',
+        'DrugRepository'
     ],
     views: [
         'PDMSWebView',
@@ -40,7 +42,8 @@ Ext.application({
         'DetailPanel',
         'PatientList',
         'PatientRecord',
-        'Orders'
+        'Orders',
+        'DrugRepository'
     ],
     autoCreateViewport: true,
     controllers: [

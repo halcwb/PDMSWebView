@@ -7,17 +7,18 @@
     "codeClass": null,
     "userConfig": {
         "autoLoad": true,
+        "autoSync": true,
         "model": "TreeRecord",
-        "storeId": "departmentTreeStore",
-        "designer|userClassName": "DepartmentTree",
+        "storeId": "MyXmlTreeStore1",
+        "designer|userClassName": "DrugRepository",
         "root": [
             "{\r",
-            "    text: 'Departments',\r",
-            "    id: 'data'\r",
+            "text: 'Formulary',\r",
+            "id: 'root'\r",
             "}"
         ]
     },
-    "designerId": "ce096478-6da4-4113-885a-b876fd80256e",
+    "designerId": "78876b05-f500-48a1-853a-1172c8ae9482",
     "cn": [
         {
             "type": "Ext.data.proxy.Ajax",
@@ -27,10 +28,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyAjaxProxy1",
-                "url": "http://localhost/PDMSwebservices/departments.asmx/GetDepartmentTree"
+                "designer|userClassName": "MyAjaxProxy4",
+                "url": "http://localhost/pdmswebservices/drugrepository.asmx/GetDrugRepository"
             },
-            "designerId": "616b5a18-55db-478d-95e1-e870949cc944",
+            "designerId": "b616125b-4ea3-4c44-a16a-0b53b4563daf",
             "cn": [
                 {
                     "type": "Ext.data.reader.Xml",
@@ -40,12 +41,11 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "idProperty": "",
                         "root": "root",
-                        "designer|userClassName": "MyXmlReader1",
+                        "designer|userClassName": "MyXmlReader4",
                         "record": "record"
                     },
-                    "designerId": "f946ca17-5985-43b7-9ddb-ebf74f2fe991"
+                    "designerId": "5cf5d703-87fa-4f5e-8342-a586f6b50b99"
                 }
             ]
         }

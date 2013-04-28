@@ -19,7 +19,8 @@ Ext.define('PDMSWebView.view.PDMSWebView', {
     requires: [
         'PDMSWebView.view.DepartmentTabPanel',
         'PDMSWebView.view.ThemePicker',
-        'PDMSWebView.view.DetailPanel'
+        'PDMSWebView.view.DetailPanel',
+        'PDMSWebView.view.DrugRepository'
     ],
 
     layout: {
@@ -75,6 +76,10 @@ Ext.define('PDMSWebView.view.PDMSWebView', {
                     xtype: 'mypanel11',
                     itemId: 'detailspanel',
                     region: 'center'
+                },
+                {
+                    xtype: 'drugrepository',
+                    region: 'east'
                 }
             ]
         });

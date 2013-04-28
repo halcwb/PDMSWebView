@@ -30,7 +30,7 @@
                 "name": "itemclick",
                 "scope": "me",
                 "designer|targetType": "DepartmentTree",
-                "designer|controlQuery": "treepanel"
+                "designer|controlQuery": "departmenttree"
             },
             "designerId": "a8828af1-7969-45c1-b395-1d82c24720b1"
         }

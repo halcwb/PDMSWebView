@@ -1,0 +1,66 @@
+{
+    "type": "Ext.tree.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "itemId": "drugrepository",
+        "width": 600,
+        "designer|userClassName": "DrugRepository",
+        "designer|userAlias": "drugrepository",
+        "collapsed": true,
+        "collapsible": true,
+        "title": "Drug Repository",
+        "store": "DrugRepository",
+        "rootVisible": false
+    },
+    "designerId": "2c7d0a7c-c2e1-44d0-bdcd-dd4cf9591706",
+    "isBuiltIn": true,
+    "iconCls": "icon-treegridpanel",
+    "autoName": "TreeGrid",
+    "cn": [
+        {
+            "type": "Ext.tree.View",
+            "reference": {
+                "name": "viewConfig",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTreeView1"
+            },
+            "designerId": "52a22b55-6465-4d60-87f3-b43b19edb486"
+        },
+        {
+            "type": "Ext.tree.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyTreeColumn",
+                "dataIndex": "text",
+                "text": "Nodes",
+                "flex": 1
+            },
+            "designerId": "dee98c10-4313-437a-99bf-37e1e562b743"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyColumn11",
+                "dataIndex": "value",
+                "text": "Value"
+            },
+            "designerId": "1ad729af-b77f-4eef-8aee-0ce1ec0609a6"
+        }
+    ]
+}

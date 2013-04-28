@@ -1,0 +1,56 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "TherapeuticGroup"
+    },
+    "designerId": "8dacd087-8f29-47ba-ae4d-0fd357ea638f",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ID",
+                "type": "string",
+                "designer|userClassName": "MyField26"
+            },
+            "designerId": "a78600cb-a9db-4d00-a1a1-c66c6e7e25f3"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Name",
+                "type": "string",
+                "designer|userClassName": "MyField27"
+            },
+            "designerId": "006a3c1b-969e-4b38-a070-ace16c65e371"
+        },
+        {
+            "type": "Ext.data.association.HasMany",
+            "reference": {
+                "name": "hasMany",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "model": "GenericGroup",
+                "designer|userClassName": "MyHasManyAssociation1",
+                "designer|displayName": "hasManyGenericGroup"
+            },
+            "designerId": "e9e3e82a-2fc2-4645-b16f-e39dcbbaa5f0"
+        }
+    ]
+}

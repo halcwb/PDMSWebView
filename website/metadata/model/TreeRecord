@@ -1,0 +1,56 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "TreeRecord"
+    },
+    "designerId": "ed446f99-018e-4469-9ad2-f2417793ffdb",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "id",
+                "type": "string",
+                "designer|userClassName": "MyField26"
+            },
+            "designerId": "a4b9cc5a-4747-453e-9aa4-1faf160a32f2"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "text",
+                "type": "string",
+                "designer|userClassName": "MyField27"
+            },
+            "designerId": "7ee293a2-15be-46b4-b523-25ad185d1ddb"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "value",
+                "type": "string",
+                "designer|userClassName": "MyField28"
+            },
+            "designerId": "d2284a25-d47f-4c1f-a496-8c8b36247622"
+        }
+    ]
+}

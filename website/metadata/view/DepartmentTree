@@ -6,8 +6,9 @@
     },
     "codeClass": null,
     "userConfig": {
+        "itemId": "departmenttree",
         "designer|userClassName": "DepartmentTree",
-        "designer|userAlias": "DepartmentTree",
+        "designer|userAlias": "departmenttree",
         "title": "Tree",
         "store": "DepartmentTree"
     },
