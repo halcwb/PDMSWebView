@@ -75,11 +75,38 @@ Ext.define('PDMSWebView.view.PDMSWebView', {
                 {
                     xtype: 'mypanel11',
                     itemId: 'detailspanel',
+                    width: 908,
                     region: 'center'
                 },
                 {
-                    xtype: 'drugrepository',
-                    region: 'east'
+                    xtype: 'tabpanel',
+                    region: 'east',
+                    width: 500,
+                    collapsed: true,
+                    collapsible: true,
+                    activeTab: 0,
+                    items: [
+                        {
+                            xtype: 'drugrepository'
+                        },
+                        {
+                            xtype: 'gridpanel',
+                            title: 'Therapeutische Groupen',
+                            store: 'TherapeuticGroup',
+                            columns: [
+                                {
+                                    xtype: 'gridcolumn',
+                                    dataIndex: 'Name',
+                                    text: 'Name'
+                                },
+                                {
+                                    xtype: 'gridcolumn',
+                                    dataIndex: 'Text',
+                                    text: 'Text'
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         });

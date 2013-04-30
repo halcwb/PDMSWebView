@@ -11,7 +11,7 @@
         "designer|userClassName": "DrugRepository",
         "designer|userAlias": "drugrepository",
         "collapsed": true,
-        "collapsible": true,
+        "collapsible": false,
         "title": "Drug Repository",
         "store": "DrugRepository",
         "rootVisible": false

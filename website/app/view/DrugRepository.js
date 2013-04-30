@@ -20,7 +20,7 @@ Ext.define('PDMSWebView.view.DrugRepository', {
     itemId: 'drugrepository',
     width: 600,
     collapsed: true,
-    collapsible: true,
+    collapsible: false,
     title: 'Drug Repository',
     store: 'DrugRepository',
     rootVisible: false,

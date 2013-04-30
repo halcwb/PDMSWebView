@@ -32,11 +32,27 @@
             },
             "codeClass": null,
             "userConfig": {
+                "mapping": "Name",
                 "name": "Name",
                 "type": "string",
                 "designer|userClassName": "MyField27"
             },
             "designerId": "006a3c1b-969e-4b38-a070-ace16c65e371"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "mapping": "Text",
+                "name": "Text",
+                "type": "string",
+                "designer|userClassName": "MyField27"
+            },
+            "designerId": "813ad1b9-4b13-4b3b-9db8-537837c8a69e"
         },
         {
             "type": "Ext.data.association.HasMany",

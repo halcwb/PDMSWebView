@@ -105,23 +105,122 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "detailspanel",
+                "width": 908,
                 "layout|region": "center"
             },
             "designerId": "b2b99972-b14d-4e5d-bf01-2a79cbcce509",
             "masterInstanceId": "fd912b13-754e-4517-9b47-b2a86ec1d258"
         },
         {
-            "type": "linkedinstance",
+            "type": "Ext.tab.Panel",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "layout|region": "east"
+                "layout|region": "east",
+                "width": 500,
+                "designer|userClassName": "MyTabPanel2",
+                "collapsed": true,
+                "collapsible": true,
+                "activeTab": 0
             },
-            "designerId": "e9625565-53b9-42d9-aa9b-884dd9b8445b",
-            "masterInstanceId": "2c7d0a7c-c2e1-44d0-bdcd-dd4cf9591706"
+            "designerId": "c9908bb5-203d-4c2a-bda6-59ec1a22ee99",
+            "cn": [
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "designerId": "e9625565-53b9-42d9-aa9b-884dd9b8445b",
+                    "masterInstanceId": "2c7d0a7c-c2e1-44d0-bdcd-dd4cf9591706",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "TabConfig6"
+                            },
+                            "designerId": "2c0c097a-dbdf-473e-bb09-d3b12f90f9a6"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.grid.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MyGridPanel3",
+                        "title": "Therapeutische Groupen",
+                        "store": "TherapeuticGroup"
+                    },
+                    "designerId": "5a33321c-ea28-4384-a2b3-091c8c3c0426",
+                    "cn": [
+                        {
+                            "type": "Ext.grid.column.Column",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyColumn12",
+                                "dataIndex": "Name",
+                                "text": "Name"
+                            },
+                            "designerId": "5100dec2-94f9-4854-bc4e-d413ab4ea4b2"
+                        },
+                        {
+                            "type": "Ext.grid.column.Column",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyColumn12",
+                                "dataIndex": "Text",
+                                "text": "Text"
+                            },
+                            "designerId": "f44fde87-9231-4f06-89d2-ea132d218d76"
+                        },
+                        {
+                            "type": "Ext.grid.View",
+                            "reference": {
+                                "name": "viewConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyGridView3"
+                            },
+                            "designerId": "7df6ae9e-7b30-45ba-9b52-dd6d776bc1c0"
+                        },
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "TabConfig3"
+                            },
+                            "designerId": "5d6894b9-64b2-4c3a-a001-87bca368ea19"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

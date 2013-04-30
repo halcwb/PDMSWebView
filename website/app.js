@@ -31,7 +31,8 @@ Ext.application({
         'Themes',
         'Patients',
         'Orders',
-        'DrugRepository'
+        'DrugRepository',
+        'TherapeuticGroup'
     ],
     views: [
         'PDMSWebView',

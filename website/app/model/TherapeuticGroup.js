@@ -26,7 +26,13 @@ Ext.define('PDMSWebView.model.TherapeuticGroup', {
             type: 'string'
         },
         {
+            mapping: 'Name',
             name: 'Name',
+            type: 'string'
+        },
+        {
+            mapping: 'Text',
+            name: 'Text',
             type: 'string'
         }
     ],
