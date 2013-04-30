@@ -18,8 +18,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "ID",
-                "designer|userClassName": "MyField34"
+                "name": "ID"
             },
             "designerId": "f463369f-460f-4a24-b7fc-72ece687d3bb"
         },
@@ -31,8 +30,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "Name",
-                "designer|userClassName": "MyField35"
+                "name": "Name"
             },
             "designerId": "4be6211e-4d17-49cd-a50d-f45eee90671b"
         }

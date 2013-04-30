@@ -6,7 +6,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "url": "http://localhost/PDMSWebView/website/app/ux/grid/filter/Filter.js"
+        "designer|userClassName": "js4",
+        "url": "./app/ux/grid/filter/Filter.js"
     },
     "designerId": "ad58561c-0e31-4ad3-a42a-8a303218b9c8"
 }

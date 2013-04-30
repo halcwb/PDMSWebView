@@ -28,7 +28,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyAjaxProxy4",
                 "url": "http://localhost/pdmswebservices/drugrepository.asmx/GetDrugRepository"
             },
             "designerId": "b616125b-4ea3-4c44-a16a-0b53b4563daf",
@@ -42,7 +41,6 @@
                     "codeClass": null,
                     "userConfig": {
                         "root": "root",
-                        "designer|userClassName": "MyXmlReader4",
                         "record": "record"
                     },
                     "designerId": "5cf5d703-87fa-4f5e-8342-a586f6b50b99"

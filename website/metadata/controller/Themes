@@ -18,7 +18,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onComboboxSelect",
                 "fn": "onComboboxSelect",
                 "implHandler": [
                     "Ext.util.CSS.swapStyleSheet('theme', records[0].data.url);"

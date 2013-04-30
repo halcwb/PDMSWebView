@@ -9,10 +9,10 @@
         "exportPath": "",
         "buildShouldOverwriteIndex": true
     },
-    "xdsVersion": "2.2.1",
-    "xdsBuild": 951,
+    "xdsVersion": "2.2.2",
+    "xdsBuild": 971,
     "schemaVersion": 1,
-    "upgradeVersion": 210000000500,
+    "upgradeVersion": 210000000501,
     "framework": "ext42",
     "topInstanceFileMap": {
         "3e73bda5-699f-409f-a032-04ddbd001ddb": {

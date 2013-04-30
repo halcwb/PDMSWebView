@@ -19,8 +19,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "ID",
-                "type": "string",
-                "designer|userClassName": "MyField32"
+                "type": "string"
             },
             "designerId": "b821e789-972c-4e62-89af-8bbda10a09aa"
         },
@@ -33,8 +32,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "Name",
-                "type": "string",
-                "designer|userClassName": "MyField33"
+                "type": "string"
             },
             "designerId": "89eb6bd9-7984-4c3f-9fa4-70fdc56b739a"
         },
@@ -47,7 +45,6 @@
             "codeClass": null,
             "userConfig": {
                 "model": "Product",
-                "designer|userClassName": "MyHasManyAssociation4",
                 "designer|displayName": "hasManyProduct"
             },
             "designerId": "3de8c42e-8401-4afb-aa09-0ae4652bfcf5"

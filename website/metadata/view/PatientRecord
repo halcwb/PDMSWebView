@@ -29,9 +29,6 @@
                         "type": "object"
                     },
                     "codeClass": null,
-                    "userConfig": {
-                        "designer|userClassName": "TabConfig2"
-                    },
                     "designerId": "bbf647db-7834-4a09-bf34-c447d4a1e0c0"
                 }
             ]

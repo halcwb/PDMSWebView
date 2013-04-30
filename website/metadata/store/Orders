@@ -20,7 +20,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyAjaxProxy3",
                 "extraParams": [
                     "{hospitalNumber: '987593'}"
                 ],
@@ -37,7 +36,6 @@
                     "codeClass": null,
                     "userConfig": {
                         "root": "root",
-                        "designer|userClassName": "MyXmlReader3",
                         "record": "Order"
                     },
                     "designerId": "5d806a06-c797-4ba1-b98d-6af309a01928"

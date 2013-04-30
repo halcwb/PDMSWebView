@@ -18,7 +18,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onButtonClick",
                 "fn": "onButtonClick",
                 "implHandler": [
                     "var bar = Ext.ComponentQuery.query('#pdmswebviewtools')[0];\r",

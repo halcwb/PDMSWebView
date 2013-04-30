@@ -28,9 +28,6 @@
                 "type": "object"
             },
             "codeClass": null,
-            "userConfig": {
-                "designer|userClassName": "MyTreeView1"
-            },
             "designerId": "52a22b55-6465-4d60-87f3-b43b19edb486"
         },
         {
@@ -41,7 +38,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyTreeColumn",
                 "dataIndex": "text",
                 "text": "Nodes",
                 "flex": 1
@@ -56,7 +52,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn11",
                 "dataIndex": "value",
                 "text": "Value"
             },

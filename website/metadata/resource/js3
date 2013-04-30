@@ -6,7 +6,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "url": "http://localhost/PDMSWebView/website/app/ux/grid/filter/BooleanFilter.js"
+        "designer|userClassName": "js3",
+        "url": "./app/ux/grid/filter/BooleanFilter.js"
     },
     "designerId": "69da894e-ced4-4f16-a74a-5b2ba02545e9"
 }

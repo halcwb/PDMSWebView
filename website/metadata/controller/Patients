@@ -18,7 +18,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onGridpanelItemClick",
                 "fn": "onGridpanelItemClick",
                 "implHandler": [
                     "this.setCurrentPatient(record.data);\r",
@@ -42,7 +41,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "setCurrentPatient",
                 "fn": "setCurrentPatient",
                 "designer|params": [
                     "patient"
@@ -61,7 +59,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "getCurrentPatient",
                 "fn": "getCurrentPatient",
                 "implHandler": [
                     "return this.currentPatient;"

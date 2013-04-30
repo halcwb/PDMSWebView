@@ -31,9 +31,6 @@
                         "type": "object"
                     },
                     "codeClass": null,
-                    "userConfig": {
-                        "designer|userClassName": "TabConfig"
-                    },
                     "designerId": "6f385a11-3ba1-400e-887f-a73484187a57"
                 }
             ]
@@ -55,9 +52,6 @@
                         "type": "object"
                     },
                     "codeClass": null,
-                    "userConfig": {
-                        "designer|userClassName": "TabConfig1"
-                    },
                     "designerId": "8520ee0d-d146-4275-afa6-f85f47c4cd56"
                 }
             ]

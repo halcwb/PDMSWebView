@@ -19,8 +19,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "ID",
-                "type": "string",
-                "designer|userClassName": "MyField18"
+                "type": "string"
             },
             "designerId": "c5442588-1e94-4528-b204-db26a59fbafc"
         },
@@ -33,8 +32,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "Number",
-                "type": "int",
-                "designer|userClassName": "MyField18"
+                "type": "int"
             },
             "designerId": "be78d8ae-3124-47e0-88f9-49b4e3980914"
         },
@@ -47,8 +45,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "Type",
-                "type": "string",
-                "designer|userClassName": "MyField19"
+                "type": "string"
             },
             "designerId": "f2095a1e-1fa0-4a59-ab3c-aed7c9a55e2c"
         },
@@ -61,8 +58,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "StartDateTime",
-                "type": "date",
-                "designer|userClassName": "MyField20"
+                "type": "date"
             },
             "designerId": "562dc6eb-126e-4f79-90ad-cae59b9f1a66"
         },
@@ -75,8 +71,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "StopDateTime",
-                "type": "date",
-                "designer|userClassName": "MyField21"
+                "type": "date"
             },
             "designerId": "7d9d5742-54d9-4964-b875-506df31f8545"
         },
@@ -89,8 +84,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "Prescriber",
-                "type": "string",
-                "designer|userClassName": "MyField23"
+                "type": "string"
             },
             "designerId": "f94512e1-1592-4c1d-bc46-6ad38d3932d4"
         },
@@ -103,8 +97,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "Text",
-                "type": "string",
-                "designer|userClassName": "MyField22"
+                "type": "string"
             },
             "designerId": "c30db930-2c9e-4dd5-8f8f-4726bcb0a317"
         },
@@ -117,8 +110,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "Active",
-                "type": "boolean",
-                "designer|userClassName": "MyField22"
+                "type": "boolean"
             },
             "designerId": "bb7d60df-0ffe-4529-831a-eaafdf224cdc"
         }

@@ -24,7 +24,6 @@
             "codeClass": null,
             "userConfig": {
                 "width": 164,
-                "designer|userClassName": "MyColumn",
                 "dataIndex": "Name",
                 "text": "Department"
             },
@@ -37,9 +36,6 @@
                 "type": "object"
             },
             "codeClass": null,
-            "userConfig": {
-                "designer|userClassName": "MyGridView"
-            },
             "designerId": "835afe73-1d52-4362-a16d-f4332345c5af"
         }
     ]

@@ -21,9 +21,6 @@
                 "type": "object"
             },
             "codeClass": null,
-            "userConfig": {
-                "designer|userClassName": "MyTreeView"
-            },
             "designerId": "0a4378e1-e849-49b3-bf41-f6d907c48fec"
         }
     ]

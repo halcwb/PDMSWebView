@@ -27,7 +27,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyAjaxProxy1",
                 "url": "http://localhost/PDMSwebservices/departments.asmx/GetDepartmentTree"
             },
             "designerId": "616b5a18-55db-478d-95e1-e870949cc944",
@@ -42,7 +41,6 @@
                     "userConfig": {
                         "idProperty": "",
                         "root": "root",
-                        "designer|userClassName": "MyXmlReader1",
                         "record": "record"
                     },
                     "designerId": "f946ca17-5985-43b7-9ddb-ebf74f2fe991"

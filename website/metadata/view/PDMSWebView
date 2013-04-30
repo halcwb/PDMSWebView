@@ -40,7 +40,6 @@
                 "layout|region": "north",
                 "height": 70,
                 "itemId": "pdmswebviewtitle",
-                "designer|userClassName": "MyPanel",
                 "collapsed": true,
                 "collapsible": true,
                 "title": "PDMS Web View",
@@ -57,7 +56,6 @@
                     "codeClass": null,
                     "userConfig": {
                         "itemId": "toolstoggle",
-                        "designer|userClassName": "MyTool",
                         "type": "gear"
                     },
                     "designerId": "8964b808-9215-4373-b522-ed41593a46d5"
@@ -71,8 +69,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "dock": "top",
-                        "itemId": "pdmswebviewtools",
-                        "designer|userClassName": "MyToolbar"
+                        "itemId": "pdmswebviewtools"
                     },
                     "designerId": "f21e3659-f2ec-4a43-8934-eef0ae415101",
                     "cn": [
@@ -121,7 +118,6 @@
             "userConfig": {
                 "layout|region": "east",
                 "width": 500,
-                "designer|userClassName": "MyTabPanel2",
                 "collapsed": true,
                 "collapsible": true,
                 "activeTab": 0
@@ -145,9 +141,6 @@
                                 "type": "object"
                             },
                             "codeClass": null,
-                            "userConfig": {
-                                "designer|userClassName": "TabConfig6"
-                            },
                             "designerId": "2c0c097a-dbdf-473e-bb09-d3b12f90f9a6"
                         }
                     ]
@@ -160,7 +153,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "MyGridPanel3",
                         "title": "Therapeutische Groupen",
                         "store": "TherapeuticGroup"
                     },
@@ -174,7 +166,6 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "designer|userClassName": "MyColumn12",
                                 "dataIndex": "Name",
                                 "text": "Name"
                             },
@@ -188,7 +179,6 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "designer|userClassName": "MyColumn12",
                                 "dataIndex": "Text",
                                 "text": "Text"
                             },
@@ -201,9 +191,6 @@
                                 "type": "object"
                             },
                             "codeClass": null,
-                            "userConfig": {
-                                "designer|userClassName": "MyGridView3"
-                            },
                             "designerId": "7df6ae9e-7b30-45ba-9b52-dd6d776bc1c0"
                         },
                         {
@@ -213,9 +200,6 @@
                                 "type": "object"
                             },
                             "codeClass": null,
-                            "userConfig": {
-                                "designer|userClassName": "TabConfig3"
-                            },
                             "designerId": "5d6894b9-64b2-4c3a-a001-87bca368ea19"
                         }
                     ]

@@ -19,8 +19,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "ID",
-                "type": "string",
-                "designer|userClassName": "MyField30"
+                "type": "string"
             },
             "designerId": "ef287d76-d7d0-4541-ad3d-bb8f2923a931"
         },
@@ -33,8 +32,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "Name",
-                "type": "string",
-                "designer|userClassName": "MyField31"
+                "type": "string"
             },
             "designerId": "f1a995e9-f732-44be-b1e0-8f7eb97709a4"
         },
@@ -47,7 +45,6 @@
             "codeClass": null,
             "userConfig": {
                 "model": "Route",
-                "designer|userClassName": "MyHasManyAssociation2",
                 "designer|displayName": "hasManyRoute"
             },
             "designerId": "e1daab4d-14e9-4f3a-8ac5-eddcaf18bac2"

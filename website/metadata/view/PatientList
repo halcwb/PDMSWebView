@@ -22,7 +22,6 @@
             "codeClass": null,
             "userConfig": {
                 "width": 60,
-                "designer|userClassName": "MyNumberColumn",
                 "dataIndex": "Number",
                 "text": "No",
                 "format": "0,000"
@@ -37,7 +36,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn1",
                 "dataIndex": "BedId",
                 "text": "Bed Id"
             },
@@ -51,7 +49,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn1",
                 "dataIndex": "HospitalNumber",
                 "text": "Hosp No"
             },
@@ -66,7 +63,6 @@
             "codeClass": null,
             "userConfig": {
                 "width": 150,
-                "designer|userClassName": "MyColumn1",
                 "dataIndex": "LastName",
                 "text": "Last Name"
             },
@@ -81,7 +77,6 @@
             "codeClass": null,
             "userConfig": {
                 "width": 150,
-                "designer|userClassName": "MyColumn1",
                 "dataIndex": "FirstName",
                 "text": "First Name"
             },
@@ -95,7 +90,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyDateColumn",
                 "dataIndex": "BirthDate",
                 "text": "Birth Date"
             },
@@ -110,7 +104,6 @@
             "codeClass": null,
             "userConfig": {
                 "width": 50,
-                "designer|userClassName": "MyNumberColumn",
                 "dataIndex": "Age",
                 "text": "Age",
                 "format": "0,000"
@@ -126,7 +119,6 @@
             "codeClass": null,
             "userConfig": {
                 "width": 50,
-                "designer|userClassName": "MyNumberColumn",
                 "dataIndex": "Weight",
                 "text": "Weight",
                 "format": "0,000"
@@ -141,7 +133,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyDateColumn",
                 "dataIndex": "AdmissionDate",
                 "text": "Admission Date"
             },
@@ -156,7 +147,6 @@
             "codeClass": null,
             "userConfig": {
                 "width": 150,
-                "designer|userClassName": "MyColumn1",
                 "dataIndex": "MainSpecialism",
                 "text": "Specialism"
             },
@@ -170,7 +160,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn1",
                 "dataIndex": "Physician",
                 "text": "Physician"
             },
@@ -184,7 +173,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn1",
                 "dataIndex": "AdmissionDiagonosis",
                 "text": "Diagnosis",
                 "flex": 1
@@ -198,9 +186,6 @@
                 "type": "object"
             },
             "codeClass": null,
-            "userConfig": {
-                "designer|userClassName": "MyGridView1"
-            },
             "designerId": "b466a0da-3a1b-4d74-b03f-751e35ad46e8"
         }
     ]

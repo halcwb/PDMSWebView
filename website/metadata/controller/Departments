@@ -18,7 +18,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onTreepanelItemClick",
                 "fn": "onTreepanelItemClick",
                 "implHandler": [
                     "var store = Ext.StoreMgr.get(\"Patients\");\r",

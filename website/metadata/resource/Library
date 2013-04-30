@@ -6,7 +6,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "basePath": "http://localhost/PDMSWebView/lib/ext-4.2.0-gpl/ext-4.2.0.663/",
+        "designer|userClassName": "Library",
+        "basePath": "./lib/ext-4.2.0-gpl/ext-4.2.0.663/",
         "theme": "neptune"
     },
     "designerId": "3e73bda5-699f-409f-a032-04ddbd001ddb",

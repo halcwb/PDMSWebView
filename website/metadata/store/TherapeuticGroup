@@ -21,7 +21,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyAjaxProxy5",
                 "url": "http://localhost:8080/databases/test/docs/"
             },
             "designerId": "808e4e47-4c03-4fd1-8824-0fe20f566696",
@@ -33,9 +32,6 @@
                         "type": "object"
                     },
                     "codeClass": null,
-                    "userConfig": {
-                        "designer|userClassName": "MyArrayReader"
-                    },
                     "designerId": "6cd33d27-a72b-453c-a93b-e14679232b1e"
                 }
             ]

@@ -30,7 +30,6 @@
             "codeClass": null,
             "userConfig": {
                 "width": 60,
-                "designer|userClassName": "MyNumberColumn3",
                 "dataIndex": "Number",
                 "text": "No",
                 "format": "0,000"
@@ -45,7 +44,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn8",
                 "dataIndex": "Type",
                 "groupable": true,
                 "text": "Type"
@@ -60,7 +58,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyDateColumn2",
                 "dataIndex": "StartDateTime",
                 "text": "Start"
             },
@@ -74,7 +71,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyDateColumn2",
                 "dataIndex": "StopDateTime",
                 "text": "Stop"
             },
@@ -88,7 +84,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn8",
                 "dataIndex": "Prescriber",
                 "text": "Prescriber"
             },
@@ -102,7 +97,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyColumn8",
                 "dataIndex": "Text",
                 "text": "Text",
                 "flex": 1
@@ -118,7 +112,6 @@
             "codeClass": null,
             "userConfig": {
                 "width": 80,
-                "designer|userClassName": "MyBooleanColumn",
                 "dataIndex": "Active",
                 "text": "Active"
             },
@@ -131,9 +124,6 @@
                 "type": "object"
             },
             "codeClass": null,
-            "userConfig": {
-                "designer|userClassName": "MyGridView2"
-            },
             "designerId": "d89487ab-9035-443d-b51c-29def50dc69f"
         },
         {
@@ -143,9 +133,6 @@
                 "type": "object"
             },
             "codeClass": "Ext.selection.CheckboxModel",
-            "userConfig": {
-                "designer|userClassName": "MyCheckboxSelectionModel"
-            },
             "designerId": "02ac0134-36aa-4d94-9192-5cc0f309cdb0"
         },
         {
@@ -156,8 +143,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "dock": "top",
-                "designer|userClassName": "MyToolbar1"
+                "dock": "top"
             },
             "designerId": "1476c344-b109-418b-8c03-3681ce7ee609",
             "cn": [
@@ -172,7 +158,6 @@
                         "layout|flex": null,
                         "itemId": "cycleActiveOrders",
                         "width": 100,
-                        "designer|userClassName": "MyCycleButton",
                         "showText": true
                     },
                     "designerId": "b51400d0-c75b-40bb-948e-afba1c74df30",
@@ -185,8 +170,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "width": 120,
-                                "designer|userClassName": "MyMenu"
+                                "width": 120
                             },
                             "designerId": "f27068a2-f903-46d6-8260-018a1c0a57dd",
                             "cn": [
@@ -198,7 +182,6 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "designer|userClassName": "MyCheckItem1",
                                         "text": "Active"
                                     },
                                     "designerId": "31987c15-ec2d-4cca-943e-d8a31775c353"
@@ -211,7 +194,6 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "designer|userClassName": "MyCheckItem2",
                                         "text": "Inactive"
                                     },
                                     "designerId": "6e0f7897-bee8-408e-ab73-1e04adbd63d7"
@@ -224,7 +206,6 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
-                                        "designer|userClassName": "MyCheckItem",
                                         "text": "All"
                                     },
                                     "designerId": "b9a6f70b-1023-4229-9605-dc07322d993b"
@@ -242,9 +223,6 @@
                 "type": "array"
             },
             "codeClass": null,
-            "userConfig": {
-                "designer|userClassName": "MyGroupingFeature"
-            },
             "designerId": "3423db07-0eb4-4540-b117-849e136d813e"
         }
     ]

@@ -19,8 +19,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "ID",
-                "type": "string",
-                "designer|userClassName": "MyField26"
+                "type": "string"
             },
             "designerId": "a78600cb-a9db-4d00-a1a1-c66c6e7e25f3"
         },
@@ -34,8 +33,7 @@
             "userConfig": {
                 "mapping": "Name",
                 "name": "Name",
-                "type": "string",
-                "designer|userClassName": "MyField27"
+                "type": "string"
             },
             "designerId": "006a3c1b-969e-4b38-a070-ace16c65e371"
         },
@@ -49,8 +47,7 @@
             "userConfig": {
                 "mapping": "Text",
                 "name": "Text",
-                "type": "string",
-                "designer|userClassName": "MyField27"
+                "type": "string"
             },
             "designerId": "813ad1b9-4b13-4b3b-9db8-537837c8a69e"
         },
@@ -63,7 +60,6 @@
             "codeClass": null,
             "userConfig": {
                 "model": "GenericGroup",
-                "designer|userClassName": "MyHasManyAssociation1",
                 "designer|displayName": "hasManyGenericGroup"
             },
             "designerId": "e9e3e82a-2fc2-4645-b16f-e39dcbbaa5f0"

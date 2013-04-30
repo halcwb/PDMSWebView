@@ -18,8 +18,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "ID",
-                "designer|userClassName": "MyField4"
+                "name": "ID"
             },
             "designerId": "e19aa94c-7f98-4cb9-8a50-a807ca313fd0"
         },
@@ -31,8 +30,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "Number",
-                "designer|userClassName": "MyField4"
+                "name": "Number"
             },
             "designerId": "f9aa54db-2b08-46ef-93d1-e676f7d72766"
         },
@@ -44,8 +42,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "HospitalNumber",
-                "designer|userClassName": "MyField5"
+                "name": "HospitalNumber"
             },
             "designerId": "ed1151cc-fe2a-4d88-8bcc-540002a7545f"
         },
@@ -57,8 +54,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "LastName",
-                "designer|userClassName": "MyField6"
+                "name": "LastName"
             },
             "designerId": "8370451e-67f9-49fa-8c07-33a7978a461e"
         },
@@ -70,8 +66,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "FirstName",
-                "designer|userClassName": "MyField7"
+                "name": "FirstName"
             },
             "designerId": "e37eaa52-275f-4ab8-98e5-a136bb0f2aad"
         },
@@ -83,8 +78,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "BirthDate",
-                "designer|userClassName": "MyField8"
+                "name": "BirthDate"
             },
             "designerId": "c3819a03-02c3-4a56-8129-21cc8fdf9c15"
         },
@@ -96,8 +90,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "AdmissionDate",
-                "designer|userClassName": "MyField9"
+                "name": "AdmissionDate"
             },
             "designerId": "e6131377-7e79-47f8-be85-d2bf8c03c124"
         },
@@ -109,8 +102,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "Age",
-                "designer|userClassName": "MyField10"
+                "name": "Age"
             },
             "designerId": "be04b73f-9ad5-4a57-a4f1-2f6153674863"
         },
@@ -122,8 +114,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "MainSpecialism",
-                "designer|userClassName": "MyField11"
+                "name": "MainSpecialism"
             },
             "designerId": "68845598-8704-4a73-9039-82e7a3972f1f"
         },
@@ -135,8 +126,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "AdmissionDiagonosis",
-                "designer|userClassName": "MyField12"
+                "name": "AdmissionDiagonosis"
             },
             "designerId": "a9a6a51c-39a9-457e-b891-89c05bb9d1b3"
         },
@@ -148,8 +138,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "Physician",
-                "designer|userClassName": "MyField13"
+                "name": "Physician"
             },
             "designerId": "fb520161-62e7-4744-8e8d-42fe0655eb70"
         },
@@ -161,8 +150,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "BedId",
-                "designer|userClassName": "MyField14"
+                "name": "BedId"
             },
             "designerId": "915d487a-8532-4e45-a3b8-d419a2a147be"
         },
@@ -174,8 +162,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "Weight",
-                "designer|userClassName": "MyField15"
+                "name": "Weight"
             },
             "designerId": "7dd0c6de-b5f4-4844-bd71-b72e78b97aea"
         },
@@ -187,8 +174,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "name": "Department",
-                "designer|userClassName": "MyField15"
+                "name": "Department"
             },
             "designerId": "8dad9397-86e7-4a2a-95bf-cd25ae2539b7"
         }

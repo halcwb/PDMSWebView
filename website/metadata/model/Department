@@ -20,8 +20,7 @@
             "userConfig": {
                 "mapping": "ID",
                 "name": "id",
-                "type": "int",
-                "designer|userClassName": "MyField"
+                "type": "int"
             },
             "designerId": "faf29e99-7adc-4d4a-a9eb-c0cab7b5068b"
         },
@@ -34,8 +33,7 @@
             "codeClass": null,
             "userConfig": {
                 "name": "Name",
-                "type": "string",
-                "designer|userClassName": "MyField1"
+                "type": "string"
             },
             "designerId": "ea8a7158-4c1d-43a8-99fb-44a95d6f1232"
         },
@@ -48,7 +46,6 @@
             "codeClass": null,
             "userConfig": {
                 "model": "PatientInfo",
-                "designer|userClassName": "MyHasManyAssociation",
                 "designer|displayName": "hasManyPatientInfo"
             },
             "designerId": "41337a05-c649-4377-b206-5a0bdaff9b26"
