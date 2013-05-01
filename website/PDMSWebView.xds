@@ -300,7 +300,7 @@
             ],
             "className": "DrugRepository"
         },
-        "cf95f3c0-cf6f-4980-b1f0-2b9895123f58": {
+        "b6e4e6bf-6f3b-4822-a36c-cf3dab8cc276": {
             "paths": [
                 "metadata/store/TherapeuticGroup",
                 "app/store/override/TherapeuticGroup.js",
@@ -329,7 +329,7 @@
             "c97788b1-dbc0-49b0-979f-f200d640c113",
             "c7cb8032-722c-4a0e-a932-2745471d46bc",
             "78876b05-f500-48a1-853a-1172c8ae9482",
-            "cf95f3c0-cf6f-4980-b1f0-2b9895123f58"
+            "b6e4e6bf-6f3b-4822-a36c-cf3dab8cc276"
         ],
         "controller": [
             "0fd565c7-25fb-4d37-954b-6185087709fd",

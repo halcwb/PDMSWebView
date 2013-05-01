@@ -26,12 +26,13 @@ Ext.define('PDMSWebView.store.TherapeuticGroup', {
         me.callParent([Ext.apply({
             autoLoad: true,
             model: 'PDMSWebView.model.TherapeuticGroup',
-            storeId: 'MyArrayStore',
+            storeId: 'MyJsonStore',
+            pageSize: 100,
             proxy: {
                 type: 'ajax',
                 url: 'http://localhost:8080/databases/test/docs/',
                 reader: {
-                    type: 'array'
+                    type: 'json'
                 }
             }
         }, cfg)]);

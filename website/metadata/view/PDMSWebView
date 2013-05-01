@@ -154,7 +154,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "title": "Therapeutische Groupen",
-                        "store": "TherapeuticGroup"
+                        "store": null
                     },
                     "designerId": "5a33321c-ea28-4384-a2b3-091c8c3c0426",
                     "cn": [

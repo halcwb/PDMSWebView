@@ -92,7 +92,6 @@ Ext.define('PDMSWebView.view.PDMSWebView', {
                         {
                             xtype: 'gridpanel',
                             title: 'Therapeutische Groupen',
-                            store: 'TherapeuticGroup',
                             columns: [
                                 {
                                     xtype: 'gridcolumn',

@@ -1,5 +1,5 @@
 {
-    "type": "arraystore",
+    "type": "jsonstore",
     "reference": {
         "name": "items",
         "type": "array"
@@ -8,10 +8,11 @@
     "userConfig": {
         "autoLoad": true,
         "model": "TherapeuticGroup",
-        "storeId": "MyArrayStore",
-        "designer|userClassName": "TherapeuticGroup"
+        "storeId": "MyJsonStore",
+        "designer|userClassName": "TherapeuticGroup",
+        "pageSize": 100
     },
-    "designerId": "cf95f3c0-cf6f-4980-b1f0-2b9895123f58",
+    "designerId": "b6e4e6bf-6f3b-4822-a36c-cf3dab8cc276",
     "cn": [
         {
             "type": "Ext.data.proxy.Ajax",
@@ -23,16 +24,16 @@
             "userConfig": {
                 "url": "http://localhost:8080/databases/test/docs/"
             },
-            "designerId": "808e4e47-4c03-4fd1-8824-0fe20f566696",
+            "designerId": "b6cae6a1-ec9e-4bfa-b0ac-c018a511ae8d",
             "cn": [
                 {
-                    "type": "Ext.data.reader.Array",
+                    "type": "Ext.data.reader.Json",
                     "reference": {
                         "name": "reader",
                         "type": "object"
                     },
                     "codeClass": null,
-                    "designerId": "6cd33d27-a72b-453c-a93b-e14679232b1e"
+                    "designerId": "fce9536a-5f86-4279-9a47-cd81abb45849"
                 }
             ]
         }
