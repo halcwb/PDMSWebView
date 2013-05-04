@@ -19,7 +19,8 @@
             "Patients",
             "Orders",
             "DrugRepository",
-            "TherapeuticGroup"
+            "TherapeuticGroup",
+            "Product"
         ],
         "views": [
             "PDMSWebView",
@@ -31,7 +32,8 @@
             "PatientList",
             "PatientRecord",
             "Orders",
-            "DrugRepository"
+            "DrugRepository",
+            "TherapeuticGroupList"
         ],
         "autoCreateViewport": true,
         "controllers": [
@@ -40,7 +42,8 @@
             "Tools",
             "Patients",
             "DetailsPanel",
-            "Orders"
+            "Orders",
+            "Medication"
         ],
         "name": "PDMSWebView"
     },
@@ -59,7 +62,9 @@
                     "Ext.Ajax.cors = true;\r",
                     "Ext.Ajax.useDefaultXhrHeader = false;\r",
                     "Ext.Ajax.useDefaultHeader = false;\r",
-                    "Ext.Ajax.disableCaching = false;"
+                    "Ext.Ajax.disableCaching = false;\r",
+                    "\r",
+                    "PDMSWebView.RavenDB = \"http://\" + document.location.host + \":8080/\";"
                 ]
             },
             "designerId": "242429f8-cc59-4698-97db-f9aebe3feffb",
@@ -70,6 +75,25 @@
                     "type": "string"
                 }
             ]
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "createUrl",
+                "designer|params": [
+                    "origUrl",
+                    "host"
+                ],
+                "implHandler": [
+                    "return host + origUrl.split('/').splice(3).join('/');"
+                ]
+            },
+            "designerId": "e6badbb8-0717-4e4b-85ba-48e9c3914ec5"
         }
     ]
 }

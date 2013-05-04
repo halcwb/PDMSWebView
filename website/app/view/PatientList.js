@@ -56,25 +56,27 @@ Ext.define('PDMSWebView.view.PatientList', {
                 },
                 {
                     xtype: 'datecolumn',
+                    width: 120,
                     dataIndex: 'BirthDate',
                     text: 'Birth Date'
                 },
                 {
                     xtype: 'numbercolumn',
-                    width: 50,
+                    width: 60,
                     dataIndex: 'Age',
                     text: 'Age',
                     format: '0,000'
                 },
                 {
                     xtype: 'numbercolumn',
-                    width: 50,
+                    width: 60,
                     dataIndex: 'Weight',
                     text: 'Weight',
                     format: '0,000'
                 },
                 {
                     xtype: 'datecolumn',
+                    width: 120,
                     dataIndex: 'AdmissionDate',
                     text: 'Admission Date'
                 },

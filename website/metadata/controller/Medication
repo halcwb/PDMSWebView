@@ -1,0 +1,36 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Medication"
+    },
+    "designerId": "bae8674a-b31a-4466-bfb5-37fd373d8ac4",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onGridpanelViewReady",
+                "implHandler": [
+                    "var store = Ext.StoreMgr.get('TherapeuticGroup');\r",
+                    "\r",
+                    "store.proxy.url = PDMSWebView.app.createUrl(store.proxy.url, PDMSWebView.RavenDB);\r",
+                    "store.load();"
+                ],
+                "name": "viewready",
+                "scope": "me",
+                "designer|targetType": "TherapeuticGroupList",
+                "designer|controlQuery": "gridpanel"
+            },
+            "designerId": "82402b68-d0ea-486a-9cc2-c1e885c92a19"
+        }
+    ]
+}

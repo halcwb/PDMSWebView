@@ -20,7 +20,8 @@ Ext.define('PDMSWebView.view.PDMSWebView', {
         'PDMSWebView.view.DepartmentTabPanel',
         'PDMSWebView.view.ThemePicker',
         'PDMSWebView.view.DetailPanel',
-        'PDMSWebView.view.DrugRepository'
+        'PDMSWebView.view.DrugRepository',
+        'PDMSWebView.view.TherapeuticGroupList'
     ],
 
     layout: {
@@ -81,27 +82,29 @@ Ext.define('PDMSWebView.view.PDMSWebView', {
                 {
                     xtype: 'tabpanel',
                     region: 'east',
-                    width: 500,
+                    width: 800,
                     collapsed: true,
                     collapsible: true,
+                    title: 'Formularium',
                     activeTab: 0,
                     items: [
                         {
                             xtype: 'drugrepository'
                         },
                         {
+                            xtype: 'therapeuticgrouplist',
+                            itemId: 'therapeuticgrouplist'
+                        },
+                        {
                             xtype: 'gridpanel',
-                            title: 'Therapeutische Groupen',
+                            title: 'My Grid Panel',
+                            store: 'Product',
                             columns: [
                                 {
                                     xtype: 'gridcolumn',
                                     dataIndex: 'Name',
-                                    text: 'Name'
-                                },
-                                {
-                                    xtype: 'gridcolumn',
-                                    dataIndex: 'Text',
-                                    text: 'Text'
+                                    text: 'Product Name',
+                                    flex: 1
                                 }
                             ]
                         }

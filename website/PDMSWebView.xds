@@ -300,13 +300,37 @@
             ],
             "className": "DrugRepository"
         },
-        "b6e4e6bf-6f3b-4822-a36c-cf3dab8cc276": {
+        "226027ef-7887-4e7a-9f07-ff7874e933c5": {
             "paths": [
                 "metadata/store/TherapeuticGroup",
                 "app/store/override/TherapeuticGroup.js",
                 "app/store/TherapeuticGroup.js"
             ],
             "className": "TherapeuticGroup"
+        },
+        "61201153-6dfc-4e61-b75c-2cc5c6ba16fb": {
+            "paths": [
+                "metadata/view/TherapeuticGroupList",
+                "app/view/override/TherapeuticGroupList.js",
+                "app/view/TherapeuticGroupList.js"
+            ],
+            "className": "TherapeuticGroupList"
+        },
+        "bae8674a-b31a-4466-bfb5-37fd373d8ac4": {
+            "paths": [
+                "metadata/controller/Medication",
+                "app/controller/override/Medication.js",
+                "app/controller/Medication.js"
+            ],
+            "className": "Medication"
+        },
+        "d1bd8b4f-04d1-43ea-8b6b-9c552ffd9384": {
+            "paths": [
+                "metadata/store/Product",
+                "app/store/override/Product.js",
+                "app/store/Product.js"
+            ],
+            "className": "Product"
         }
     },
     "viewOrderMap": {
@@ -320,7 +344,8 @@
             "c534f5a0-4ad4-4a04-b556-b377ee1c6305",
             "a7b9f490-ac80-4ea9-8bfd-18c67c1a097f",
             "8d3c2693-4ff1-497b-ab1e-18806fa46945",
-            "2c7d0a7c-c2e1-44d0-bdcd-dd4cf9591706"
+            "2c7d0a7c-c2e1-44d0-bdcd-dd4cf9591706",
+            "61201153-6dfc-4e61-b75c-2cc5c6ba16fb"
         ],
         "store": [
             "2b680bb8-d5bb-4395-85fc-47e4c3fed379",
@@ -329,7 +354,8 @@
             "c97788b1-dbc0-49b0-979f-f200d640c113",
             "c7cb8032-722c-4a0e-a932-2745471d46bc",
             "78876b05-f500-48a1-853a-1172c8ae9482",
-            "b6e4e6bf-6f3b-4822-a36c-cf3dab8cc276"
+            "226027ef-7887-4e7a-9f07-ff7874e933c5",
+            "d1bd8b4f-04d1-43ea-8b6b-9c552ffd9384"
         ],
         "controller": [
             "0fd565c7-25fb-4d37-954b-6185087709fd",
@@ -337,7 +363,8 @@
             "3a3ad2bf-e4c9-419d-9424-1054e434788b",
             "371dd9f6-c9ef-4da9-9fe2-2cab42de3a91",
             "57f49ced-114d-4b6a-bb77-0993b1b42be4",
-            "8d164103-68ec-4114-82e9-8aada84df07a"
+            "8d164103-68ec-4114-82e9-8aada84df07a",
+            "bae8674a-b31a-4466-bfb5-37fd373d8ac4"
         ],
         "model": [
             "766b173c-b99d-43fd-a4c2-e751bb85d8d1",

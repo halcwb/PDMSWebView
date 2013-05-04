@@ -32,7 +32,8 @@ Ext.application({
         'Patients',
         'Orders',
         'DrugRepository',
-        'TherapeuticGroup'
+        'TherapeuticGroup',
+        'Product'
     ],
     views: [
         'PDMSWebView',
@@ -44,7 +45,8 @@ Ext.application({
         'PatientList',
         'PatientRecord',
         'Orders',
-        'DrugRepository'
+        'DrugRepository',
+        'TherapeuticGroupList'
     ],
     autoCreateViewport: true,
     controllers: [
@@ -53,7 +55,8 @@ Ext.application({
         'Tools',
         'Patients',
         'DetailsPanel',
-        'Orders'
+        'Orders',
+        'Medication'
     ],
     name: 'PDMSWebView',
 
@@ -62,6 +65,12 @@ Ext.application({
         Ext.Ajax.useDefaultXhrHeader = false;
         Ext.Ajax.useDefaultHeader = false;
         Ext.Ajax.disableCaching = false;
+
+        PDMSWebView.RavenDB = "http://" + document.location.host + ":8080/";
+    },
+
+    createUrl: function(origUrl, host) {
+        return host + origUrl.split('/').splice(3).join('/');
     }
 
 });

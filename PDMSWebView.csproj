@@ -75,6 +75,7 @@
     <Content Include="website\app.js" />
     <Content Include="website\app\controller\Departments.js" />
     <Content Include="website\app\controller\DetailsPanel.js" />
+    <Content Include="website\app\controller\Medication.js" />
     <Content Include="website\app\controller\Orders.js" />
     <Content Include="website\app\controller\Patients.js" />
     <Content Include="website\app\controller\Themes.js" />
@@ -195,6 +196,7 @@
     <Content Include="website\app\view\PatientRecord.js" />
     <Content Include="website\app\view\PDMSWebView.js" />
     <Content Include="website\app\view\ThemePicker.js" />
+    <Content Include="website\app\view\TherapeuticGroupList.js" />
     <Content Include="website\app\view\Viewport.js" />
   </ItemGroup>
   <ItemGroup>

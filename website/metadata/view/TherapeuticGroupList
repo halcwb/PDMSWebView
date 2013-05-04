@@ -1,0 +1,54 @@
+{
+    "type": "Ext.grid.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "TherapeuticGroupList",
+        "designer|userAlias": "therapeuticgrouplist",
+        "title": "Therapeutische Groupen",
+        "store": "TherapeuticGroup"
+    },
+    "designerId": "61201153-6dfc-4e61-b75c-2cc5c6ba16fb",
+    "cn": [
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "width": 300,
+                "dataIndex": "Name",
+                "text": "Name"
+            },
+            "designerId": "5100dec2-94f9-4854-bc4e-d413ab4ea4b2"
+        },
+        {
+            "type": "Ext.grid.column.Column",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "Text",
+                "text": "Text",
+                "flex": 1
+            },
+            "designerId": "f44fde87-9231-4f06-89d2-ea132d218d76"
+        },
+        {
+            "type": "Ext.grid.View",
+            "reference": {
+                "name": "viewConfig",
+                "type": "object"
+            },
+            "codeClass": null,
+            "designerId": "7df6ae9e-7b30-45ba-9b52-dd6d776bc1c0"
+        }
+    ]
+}

@@ -90,6 +90,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "width": 120,
                 "dataIndex": "BirthDate",
                 "text": "Birth Date"
             },
@@ -103,7 +104,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "width": 50,
+                "width": 60,
                 "dataIndex": "Age",
                 "text": "Age",
                 "format": "0,000"
@@ -118,7 +119,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "width": 50,
+                "width": 60,
                 "dataIndex": "Weight",
                 "text": "Weight",
                 "format": "0,000"
@@ -133,6 +134,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "width": 120,
                 "dataIndex": "AdmissionDate",
                 "text": "Admission Date"
             },

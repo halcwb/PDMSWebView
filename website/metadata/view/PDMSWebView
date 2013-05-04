@@ -117,9 +117,10 @@
             "codeClass": null,
             "userConfig": {
                 "layout|region": "east",
-                "width": 500,
+                "width": 800,
                 "collapsed": true,
                 "collapsible": true,
+                "title": "Formularium",
                 "activeTab": 0
             },
             "designerId": "c9908bb5-203d-4c2a-bda6-59ec1a22ee99",
@@ -146,6 +147,30 @@
                     ]
                 },
                 {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "therapeuticgrouplist"
+                    },
+                    "designerId": "95481e88-8253-43bd-b453-e3b960c6f9a1",
+                    "masterInstanceId": "61201153-6dfc-4e61-b75c-2cc5c6ba16fb",
+                    "cn": [
+                        {
+                            "type": "Ext.tab.Tab",
+                            "reference": {
+                                "name": "tabConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "designerId": "fe5fb935-e107-48bd-be8c-74c9d21687a1"
+                        }
+                    ]
+                },
+                {
                     "type": "Ext.grid.Panel",
                     "reference": {
                         "name": "items",
@@ -153,10 +178,10 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "title": "Therapeutische Groupen",
-                        "store": null
+                        "title": "My Grid Panel",
+                        "store": "Product"
                     },
-                    "designerId": "5a33321c-ea28-4384-a2b3-091c8c3c0426",
+                    "designerId": "779be09e-86d1-46ed-87ba-f91221d7a150",
                     "cn": [
                         {
                             "type": "Ext.grid.column.Column",
@@ -167,22 +192,10 @@
                             "codeClass": null,
                             "userConfig": {
                                 "dataIndex": "Name",
-                                "text": "Name"
+                                "text": "Product Name",
+                                "flex": 1
                             },
-                            "designerId": "5100dec2-94f9-4854-bc4e-d413ab4ea4b2"
-                        },
-                        {
-                            "type": "Ext.grid.column.Column",
-                            "reference": {
-                                "name": "columns",
-                                "type": "array"
-                            },
-                            "codeClass": null,
-                            "userConfig": {
-                                "dataIndex": "Text",
-                                "text": "Text"
-                            },
-                            "designerId": "f44fde87-9231-4f06-89d2-ea132d218d76"
+                            "designerId": "f5dfb3a3-2795-47a1-a4b3-9b7b5677d582"
                         },
                         {
                             "type": "Ext.grid.View",
@@ -191,7 +204,7 @@
                                 "type": "object"
                             },
                             "codeClass": null,
-                            "designerId": "7df6ae9e-7b30-45ba-9b52-dd6d776bc1c0"
+                            "designerId": "f54cdbaa-08bf-447b-be5e-d49c53e6b21b"
                         },
                         {
                             "type": "Ext.tab.Tab",
@@ -200,7 +213,7 @@
                                 "type": "object"
                             },
                             "codeClass": null,
-                            "designerId": "5d6894b9-64b2-4c3a-a001-87bca368ea19"
+                            "designerId": "11a3c9a4-2284-422c-8a78-4dee08e619b1"
                         }
                     ]
                 }

@@ -6,12 +6,12 @@
     },
     "codeClass": null,
     "userConfig": {
-        "autoLoad": false,
-        "model": "TherapeuticGroup",
-        "storeId": "MyJsonStore",
-        "designer|userClassName": "TherapeuticGroup"
+        "autoLoad": true,
+        "model": "Product",
+        "storeId": "MyJsonStore1",
+        "designer|userClassName": "Product"
     },
-    "designerId": "226027ef-7887-4e7a-9f07-ff7874e933c5",
+    "designerId": "d1bd8b4f-04d1-43ea-8b6b-9c552ffd9384",
     "cn": [
         {
             "type": "Ext.data.proxy.Ajax",
@@ -21,9 +21,9 @@
             },
             "codeClass": null,
             "userConfig": {
-                "url": "http://localhost:8080/databases/Test/indexes/TherapeuticGroupNames?query&pageSize=128&sort=Name"
+                "url": "http://localhost:8080/databases/Test/indexes/ProductNames?query=&pageSize=128&sort=Name"
             },
-            "designerId": "098e6373-c30d-4cd8-9c5c-5ce9ccb4fd2b",
+            "designerId": "0db4659b-25b2-405a-b86c-ad4f6819e512",
             "cn": [
                 {
                     "type": "Ext.data.reader.Json",
@@ -35,7 +35,7 @@
                     "userConfig": {
                         "root": "Results"
                     },
-                    "designerId": "5c5446f0-9624-414f-8072-ecef7b5a3373"
+                    "designerId": "59dfcc73-ce9d-4a2c-b4f2-3b4e060424d9"
                 }
             ]
         }
