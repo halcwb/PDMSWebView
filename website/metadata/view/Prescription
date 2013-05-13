@@ -1,0 +1,1260 @@
+{
+    "type": "Ext.form.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|columns": 3,
+        "padding": null,
+        "designer|userClassName": "Prescription",
+        "designer|userAlias": "prescriptionform",
+        "layout": "table",
+        "bodyPadding": 15,
+        "title": "Prescription"
+    },
+    "designerId": "e5b65351-c38c-4655-bde0-36710f2b9b8f",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "dropTarget",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "Ext.form.FieldContainer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|rowspan": null,
+                "height": 200,
+                "padding": "",
+                "width": 400,
+                "designer|displayName": "GenericProduct",
+                "fieldLabel": "",
+                "labelWidth": 0
+            },
+            "designerId": "3dd9440e-2eb1-40b1-bf63-4616fdd57337",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "padding": 10,
+                        "layout": "hbox",
+                        "title": "Generic"
+                    },
+                    "designerId": "bc99e2bc-6360-4381-b1e4-02ce2357d0e4",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "fieldLabel": "Substance",
+                                "labelAlign": "top"
+                            },
+                            "designerId": "14e9ccfb-0582-4076-84fa-b4d51d22e3b7"
+                        },
+                        {
+                            "type": "Ext.form.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 100,
+                                "fieldLabel": "Quantity",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "26916631-f3ed-4689-a961-f3140832d03c"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 100,
+                                "fieldLabel": "Unit",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "4cc7d079-857e-4a02-91e3-cee75958960a"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "padding": 10,
+                        "layout": "hbox",
+                        "title": "Shape and Route"
+                    },
+                    "designerId": "544130bf-137d-441c-b844-fe938bb2774b",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "fieldLabel": "Shape",
+                                "labelAlign": "top"
+                            },
+                            "designerId": "815f282f-b728-4728-a81d-6b4618c3849d"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "fieldLabel": "Route",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "2332a33d-177e-468b-9805-138232cd314a"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.form.FieldContainer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|rowspan": null,
+                "height": 200,
+                "padding": "",
+                "width": 400,
+                "designer|displayName": "Solution",
+                "fieldLabel": "",
+                "labelWidth": 0
+            },
+            "designerId": "509c0827-8471-4998-b9a1-93a987e69f2c",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "padding": 10,
+                        "layout": "hbox",
+                        "title": "Solution"
+                    },
+                    "designerId": "7ae6a4d4-63c8-41bb-8c61-522ac893d53e",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "fieldLabel": "Substance",
+                                "labelAlign": "top"
+                            },
+                            "designerId": "5ffbc5ca-e7db-419b-8a85-a54ffb789d0c"
+                        },
+                        {
+                            "type": "Ext.form.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 100,
+                                "fieldLabel": "Quantity",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "70b379c6-9e67-4110-a2df-d37487f6a61c"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 100,
+                                "fieldLabel": "Unit",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "2ecb7fc9-ff1f-48e4-b3eb-14c9a65c74bf"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "padding": 10,
+                        "layout": "hbox",
+                        "title": "Concentration"
+                    },
+                    "designerId": "06454ab5-0330-4d9a-b14b-2eb06cd82bca",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "fieldLabel": "Concentration",
+                                "labelAlign": "top"
+                            },
+                            "designerId": "fc4c94b1-b92a-4dee-a505-739772d1ffd5"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "fieldLabel": "Unit",
+                                "labelAlign": "top"
+                            },
+                            "designerId": "f85d016c-d143-47c0-90af-0e30e9f075d8"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "fieldLabel": "Unit",
+                                "labelAlign": "top"
+                            },
+                            "designerId": "9ceea36d-7a32-430c-95da-3649f835bf91"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.form.FieldContainer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|rowspan": null,
+                "height": 200,
+                "padding": "",
+                "width": 400,
+                "designer|displayName": "Patient",
+                "fieldLabel": "",
+                "labelWidth": 0
+            },
+            "designerId": "27148ffb-7cf7-4944-8947-3a7c2ccab4db",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "padding": 10,
+                        "layout": "column",
+                        "title": "Weight"
+                    },
+                    "designerId": "867391ef-24fe-488c-8579-7ac4f5538e6f",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 100,
+                                "fieldLabel": "Quantity",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "5517472a-69de-4d53-bf53-71928c142e83"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 100,
+                                "fieldLabel": "Unit",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "96014db3-48d4-4eca-acf8-9740f3991b68"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "padding": 10,
+                        "layout": "column",
+                        "title": "Height"
+                    },
+                    "designerId": "c51b2b6a-b43c-4b80-a7f5-c64fb5842ffd",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 100,
+                                "fieldLabel": "Quantity",
+                                "labelAlign": "top"
+                            },
+                            "designerId": "b4885dda-bc52-4a6f-bd23-615904fa1093"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 100,
+                                "fieldLabel": "Unit",
+                                "labelAlign": "top"
+                            },
+                            "designerId": "2f3cdfad-174a-4818-b445-5100050c88f8"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.form.FieldContainer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|colspan": null,
+                "height": 100,
+                "width": 400,
+                "designer|displayName": "Frequency",
+                "layout": "fit",
+                "fieldLabel": "Frequency",
+                "hideLabel": true
+            },
+            "designerId": "8f39993d-e8b2-4f58-9f6f-43c8cb93a9c7",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "height": null,
+                        "layout": "hbox",
+                        "title": "Frequency"
+                    },
+                    "designerId": "808ae8cb-ff9b-4aad-b1b2-23c331b8a861",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 100,
+                                "fieldLabel": "Quantity",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "ff0d4a19-e45b-4432-8ae2-c1468e00e8a1"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 100,
+                                "fieldLabel": "Unit",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "0830b766-3ed5-444e-8cd7-9b9d7336f432"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.form.FieldContainer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|colspan": null,
+                "height": 100,
+                "width": 400,
+                "designer|displayName": "Duration",
+                "layout": "fit",
+                "fieldLabel": "Duration",
+                "hideLabel": true
+            },
+            "designerId": "e8bac64a-f17b-4c02-8e11-299aa5be095f",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "layout": "hbox",
+                        "title": "Duration"
+                    },
+                    "designerId": "1eb4930a-8459-4718-92aa-a83f04377905",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 100,
+                                "fieldLabel": "Quantity",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "eb0de51d-3e03-4a09-bf42-3f5dda5b3282"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 100,
+                                "fieldLabel": "Unit",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "213d1196-3a4e-466c-a94b-57fbe47ecc66"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.form.FieldContainer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 100,
+                "width": 400,
+                "designer|displayName": "Options",
+                "layout": "fit",
+                "fieldLabel": "Options",
+                "hideLabel": true,
+                "labelWidth": 50
+            },
+            "designerId": "31e28686-28c5-4752-9135-6a1866993370",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "layout": "hbox",
+                        "title": "Options"
+                    },
+                    "designerId": "97d1413c-ab7e-4891-965e-26adf05a2f65",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Checkbox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "padding": 10,
+                                "fieldLabel": "Continuous",
+                                "labelAlign": "top",
+                                "boxLabel": null
+                            },
+                            "designerId": "f4b355dd-b2ba-4216-b8c6-d0999beeca31"
+                        },
+                        {
+                            "type": "Ext.form.field.Checkbox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "padding": 10,
+                                "fieldLabel": "Solution",
+                                "labelAlign": "top",
+                                "boxLabel": null
+                            },
+                            "designerId": "d6b58ad5-18cd-45e0-ae88-23d377786adb"
+                        },
+                        {
+                            "type": "Ext.form.field.Checkbox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "padding": 10,
+                                "fieldLabel": "Duration",
+                                "labelAlign": "top",
+                                "boxLabel": null
+                            },
+                            "designerId": "9dfec68d-047a-4a8f-b462-ed4f97c29745"
+                        },
+                        {
+                            "type": "Ext.form.field.Checkbox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "padding": 10,
+                                "fieldLabel": "PRN",
+                                "labelAlign": "top",
+                                "boxLabel": null
+                            },
+                            "designerId": "37370281-e718-4f53-abea-a22fc9c7eaf7"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.form.FieldContainer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|rowspan": 2,
+                "height": 200,
+                "padding": "",
+                "width": 400,
+                "designer|displayName": "Dose",
+                "fieldLabel": "",
+                "labelWidth": 0
+            },
+            "designerId": "ddaceafb-86df-4496-b211-151f9885711f",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "padding": 10,
+                        "layout": "hbox",
+                        "title": "Dose"
+                    },
+                    "designerId": "f0948dcc-2c51-4da4-9143-3835ceb908f3",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 100,
+                                "fieldLabel": "Quantity",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "e31042de-9c6c-4f6a-b63e-de851462a31c"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 100,
+                                "fieldLabel": "Unit",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "bed72e4c-c594-4c89-8ff7-0e1e0a6d46e3"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 70,
+                                "fieldLabel": "Adjust",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "44dedfb8-b078-4224-8649-21f2af4bb74b"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "padding": 10,
+                        "layout": "hbox",
+                        "title": "Dose Administer"
+                    },
+                    "designerId": "3d6db776-6cd3-40ef-9ecc-915f46866620",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 100,
+                                "fieldLabel": "Quantity",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "af54bfa3-113c-4bc2-9c5f-397eb3e52c46"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 100,
+                                "fieldLabel": "Unit",
+                                "labelAlign": "top"
+                            },
+                            "designerId": "68331029-09a9-4a34-9ab7-63572b0c6429"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.form.FieldContainer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|rowspan": 2,
+                "height": 200,
+                "padding": "",
+                "width": 400,
+                "designer|displayName": "Total",
+                "fieldLabel": "",
+                "labelWidth": 0
+            },
+            "designerId": "22063f42-0711-474d-bd82-a39b2198ff6a",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "padding": 10,
+                        "layout": "hbox",
+                        "title": "Total"
+                    },
+                    "designerId": "e7a89ff7-561c-4139-bd23-ca89c43171ea",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 100,
+                                "fieldLabel": "Quantity",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "11fed651-18ce-4766-94b8-e8826fcc1428"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 100,
+                                "fieldLabel": "Unit",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "fe7786ec-a6b6-4d00-8d67-fd930ac90b40"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 70,
+                                "fieldLabel": "Adjust",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "ef1d471e-8e09-419e-bc24-91737e4069b1"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 100,
+                                "fieldLabel": "Unit",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "da8bac9d-c363-49bd-86aa-5c1424fdd835"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "padding": 10,
+                        "layout": "hbox",
+                        "title": "Total Administer"
+                    },
+                    "designerId": "d8d21c65-cc8e-44c4-b8a5-ca7ef23976ac",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 100,
+                                "fieldLabel": "Quantity",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "ede7f780-169f-4afa-a57d-a24add5e9343"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 100,
+                                "fieldLabel": "Unit",
+                                "labelAlign": "top"
+                            },
+                            "designerId": "b1b5727c-aeb3-4386-9fe1-adf8668f6afd"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 100,
+                                "fieldLabel": "Unit",
+                                "labelAlign": "top"
+                            },
+                            "designerId": "14d3dd4e-c887-491c-8266-8de5fcc7309a"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.form.FieldContainer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|rowspan": 2,
+                "height": 200,
+                "padding": "",
+                "width": 400,
+                "designer|displayName": "Rate",
+                "fieldLabel": "",
+                "labelWidth": 0
+            },
+            "designerId": "c4a97e8a-fd25-400e-b43b-4216e3188b09",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "padding": 10,
+                        "layout": "hbox",
+                        "title": "Rate"
+                    },
+                    "designerId": "75005694-6ba3-45f7-95ab-8489aa32dbfd",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 100,
+                                "fieldLabel": "Quantity",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "9248c81b-c40b-4c17-b40d-05758ed3fbd0"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 100,
+                                "fieldLabel": "Unit",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "95034e97-f4ff-474e-af83-7be44794985d"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 70,
+                                "fieldLabel": "Adjust",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "12f9b5fe-498e-46f9-95fc-c499df9e61d4"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 100,
+                                "fieldLabel": "Unit",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "750c44cc-dc93-4d1f-839c-39f2c2b4ae46"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "padding": 10,
+                        "layout": "hbox",
+                        "title": "Rate Administer"
+                    },
+                    "designerId": "2fe931f1-be87-48f5-8c68-478af1c17ffe",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Number",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 100,
+                                "fieldLabel": "Quantity",
+                                "labelAlign": "top",
+                                "labelSeparator": " "
+                            },
+                            "designerId": "daae1799-01c3-45e9-a740-11d6496d5f70"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 100,
+                                "fieldLabel": "Unit",
+                                "labelAlign": "top"
+                            },
+                            "designerId": "452bac19-fb1d-4237-961b-5d76c2a40031"
+                        },
+                        {
+                            "type": "Ext.form.field.ComboBox",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "width": 100,
+                                "fieldLabel": "Unit",
+                                "labelAlign": "top"
+                            },
+                            "designerId": "fc946399-dbc1-4ad2-92a6-7be89ee9aade"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.form.FieldContainer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|colspan": 2,
+                "height": 120,
+                "padding": 10,
+                "width": 700,
+                "layout": "fit",
+                "fieldLabel": "Label",
+                "hideLabel": true
+            },
+            "designerId": "7f0821f0-9cb2-4e6b-aaf3-ffd0e828c15f",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "padding": 10,
+                        "layout": "fit",
+                        "title": "Prescription Text"
+                    },
+                    "designerId": "b1a7a235-1623-496b-91d4-1285ec07ae59",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.TextArea",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fieldLabel": "Label",
+                                "hideLabel": true
+                            },
+                            "designerId": "d0577ab8-9176-4906-bdbb-e698bae749a5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.form.FieldContainer",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|colspan": 1,
+                "height": 120,
+                "width": 400,
+                "designer|displayName": "StartStop",
+                "fieldLabel": "Label",
+                "hideLabel": true
+            },
+            "designerId": "5cbe6ada-a320-4309-b937-e8e2aa082ff0",
+            "cn": [
+                {
+                    "type": "Ext.form.FieldSet",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "padding": 10,
+                        "title": "Start Stop Date Time"
+                    },
+                    "designerId": "e19361bc-8662-4c66-aff6-2061e51cea25",
+                    "cn": [
+                        {
+                            "type": "Ext.form.field.Date",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|anchor": "100%",
+                                "designer|displayName": "StartDate",
+                                "fieldLabel": "Start"
+                            },
+                            "designerId": "7782c233-9ba8-4400-8fea-f21608c88df1"
+                        },
+                        {
+                            "type": "Ext.form.field.Date",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|anchor": "100%",
+                                "designer|displayName": "StopDate",
+                                "fieldLabel": "Stop"
+                            },
+                            "designerId": "c039f5e1-aa6b-4048-bc16-2e5368480789"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onFormAfterLayout",
+                "implHandler": [
+                    "var formPanel =  container;\r",
+                    "var dropTargetEl = formPanel.body.dom;\r",
+                    "\r",
+                    "console.log(dropTargetEl);\r",
+                    "\r",
+                    "formPanel.dropTarget = new Ext.dd.DropTarget(dropTargetEl, {\r",
+                    "    ddGroup     : 'ddPrescription',\r",
+                    "    notifyEnter : function(ddSource, e, data) {\r",
+                    "\r",
+                    "        //Add some flare to invite drop.\r",
+                    "        //formPanel.body.stopFx();\r",
+                    "        formPanel.body.highlight();\r",
+                    "    },\r",
+                    "    notifyDrop  : function(ddSource, e, data){\r",
+                    "        \r",
+                    "        console.log(data.records[0]);\r",
+                    "\r",
+                    "        Ext.Msg.alert('going to prescribe: ' + data.records[0].data.Name);\r",
+                    "        // Reference the record (single selection) for readability\r",
+                    "        //var selectedRecord = ddSource.dragData.selections[0];\r",
+                    "\r",
+                    "\r",
+                    "        // Load the record into the form\r",
+                    "        //formPanel.getForm().loadRecord(selectedRecord);\r",
+                    "\r",
+                    "\r",
+                    "        // Delete record from the grid.  not really required.\r",
+                    "        //ddSource.grid.store.remove(selectedRecord);\r",
+                    "\r",
+                    "        return(true);\r",
+                    "    }\r",
+                    "});"
+                ],
+                "single": true,
+                "name": "afterlayout",
+                "scope": "me"
+            },
+            "designerId": "05c786f1-49bd-47ec-a047-1b2fd96fa1c3"
+        }
+    ]
+}

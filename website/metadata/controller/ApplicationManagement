@@ -1,0 +1,33 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ApplicationManagement"
+    },
+    "designerId": "842364be-bc3d-4b47-bcda-986573d69ecb",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onViewportAfterLayout",
+                "implHandler": [
+                    "PDMSWebView.app.fullScreen();"
+                ],
+                "name": "afterlayout",
+                "scope": "me",
+                "designer|targetType": "PDMSWebView",
+                "designer|controlQuery": "viewport"
+            },
+            "designerId": "69fb9630-9019-42af-b9aa-9ba3570d6623"
+        }
+    ]
+}

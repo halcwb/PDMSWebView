@@ -13,6 +13,9 @@
         "collapsed": false,
         "collapsible": false,
         "title": "Drug Repository",
+        "enableColumnHide": false,
+        "enableColumnMove": false,
+        "rowLines": true,
         "store": "DrugRepository",
         "rootVisible": false
     },
@@ -28,7 +31,28 @@
                 "type": "object"
             },
             "codeClass": null,
-            "designerId": "52a22b55-6465-4d60-87f3-b43b19edb486"
+            "userConfig": {
+                "itemId": "drugrepositoryview"
+            },
+            "designerId": "52a22b55-6465-4d60-87f3-b43b19edb486",
+            "cn": [
+                {
+                    "type": "Ext.tree.plugin.TreeViewDragDrop",
+                    "reference": {
+                        "name": "plugins",
+                        "type": "array"
+                    },
+                    "codeClass": "Ext.tree.plugin.TreeViewDragDrop",
+                    "userConfig": {
+                        "designer|displayName": "DrugRepositoryDragDrop",
+                        "designer|createClass": "",
+                        "ddGroup": "ddPrescription",
+                        "dragGroup": null,
+                        "dropGroup": null
+                    },
+                    "designerId": "c2a96d49-41a8-444f-989f-3f90d475093e"
+                }
+            ]
         },
         {
             "type": "Ext.tree.Column",
@@ -59,6 +83,18 @@
                 "flex": null
             },
             "designerId": "02d50c30-c5cc-4406-99dd-7baa56a60f7e"
+        },
+        {
+            "type": "Ext.selection.RowModel",
+            "reference": {
+                "name": "selModel",
+                "type": "object"
+            },
+            "codeClass": "Ext.selection.RowModel",
+            "userConfig": {
+                "mode": "SINGLE"
+            },
+            "designerId": "a04c01c0-c21c-421a-be1e-cd184e418862"
         }
     ]
 }

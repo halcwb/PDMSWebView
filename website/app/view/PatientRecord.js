@@ -18,7 +18,8 @@ Ext.define('PDMSWebView.view.PatientRecord', {
     alias: 'widget.patientrecord',
 
     requires: [
-        'PDMSWebView.view.Orders'
+        'PDMSWebView.view.Orders',
+        'PDMSWebView.view.Prescription'
     ],
 
     title: 'Patient Record',
@@ -40,164 +41,18 @@ Ext.define('PDMSWebView.view.PatientRecord', {
                     title: 'Medication Orders',
                     items: [
                         {
-                            xtype: 'form',
+                            xtype: 'prescriptionform',
                             flex: 1,
-                            region: 'center',
-                            layout: {
-                                columns: 3,
-                                type: 'table'
-                            },
-                            bodyPadding: 10,
-                            title: 'Prescription',
-                            items: [
-                                {
-                                    xtype: 'fieldcontainer',
-                                    rowspan: 2,
-                                    height: 240,
-                                    padding: '',
-                                    width: 400,
-                                    fieldLabel: '',
-                                    labelWidth: 0,
-                                    items: [
-                                        {
-                                            xtype: 'fieldset',
-                                            padding: 10,
-                                            layout: {
-                                                align: 'stretch',
-                                                type: 'hbox'
-                                            },
-                                            title: 'Generic',
-                                            items: [
-                                                {
-                                                    xtype: 'combobox',
-                                                    flex: 1,
-                                                    fieldLabel: 'Substance',
-                                                    labelAlign: 'top'
-                                                },
-                                                {
-                                                    xtype: 'numberfield',
-                                                    flex: 1,
-                                                    width: 40,
-                                                    fieldLabel: 'Quantity',
-                                                    labelAlign: 'top',
-                                                    labelSeparator: ' '
-                                                },
-                                                {
-                                                    xtype: 'combobox',
-                                                    flex: 1,
-                                                    fieldLabel: 'Unit',
-                                                    labelAlign: 'top',
-                                                    labelSeparator: ' '
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            xtype: 'fieldset',
-                                            padding: 10,
-                                            layout: {
-                                                align: 'stretch',
-                                                type: 'hbox'
-                                            },
-                                            title: 'Generic',
-                                            items: [
-                                                {
-                                                    xtype: 'combobox',
-                                                    flex: 1,
-                                                    fieldLabel: 'Substance',
-                                                    labelAlign: 'top'
-                                                },
-                                                {
-                                                    xtype: 'numberfield',
-                                                    flex: 1,
-                                                    width: 40,
-                                                    fieldLabel: 'Quantity',
-                                                    labelAlign: 'top',
-                                                    labelSeparator: ' '
-                                                },
-                                                {
-                                                    xtype: 'combobox',
-                                                    flex: 1,
-                                                    fieldLabel: 'Unit',
-                                                    labelAlign: 'top',
-                                                    labelSeparator: ' '
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                },
-                                {
-                                    xtype: 'fieldcontainer',
-                                    rowspan: 2,
-                                    height: 120,
-                                    width: 400,
-                                    fieldLabel: 'Solution'
-                                },
-                                {
-                                    xtype: 'fieldcontainer',
-                                    rowspan: 2,
-                                    height: 120,
-                                    width: 400,
-                                    fieldLabel: 'Patient'
-                                },
-                                {
-                                    xtype: 'fieldcontainer',
-                                    height: 120,
-                                    width: 400,
-                                    fieldLabel: 'Frequency'
-                                },
-                                {
-                                    xtype: 'fieldcontainer',
-                                    height: 120,
-                                    width: 400,
-                                    fieldLabel: 'Duration'
-                                },
-                                {
-                                    xtype: 'fieldcontainer',
-                                    height: 120,
-                                    width: 400,
-                                    fieldLabel: 'Options'
-                                },
-                                {
-                                    xtype: 'fieldcontainer',
-                                    height: 120,
-                                    width: 400,
-                                    fieldLabel: 'Dose'
-                                },
-                                {
-                                    xtype: 'fieldcontainer',
-                                    height: 120,
-                                    width: 400,
-                                    fieldLabel: 'Total'
-                                },
-                                {
-                                    xtype: 'fieldcontainer',
-                                    height: 120,
-                                    width: 400,
-                                    fieldLabel: 'Rate'
-                                },
-                                {
-                                    xtype: 'fieldcontainer',
-                                    colspan: 2,
-                                    height: 120,
-                                    width: 800,
-                                    fieldLabel: 'Text'
-                                },
-                                {
-                                    xtype: 'fieldcontainer',
-                                    height: 120,
-                                    width: 400,
-                                    fieldLabel: 'Start Stop'
-                                }
-                            ]
+                            region: 'center'
                         }
                     ],
                     dockedItems: [
                         {
                             xtype: 'orders',
-                            dock: 'bottom',
                             height: 400,
                             collapsed: true,
-                            collapsible: true
+                            collapsible: true,
+                            dock: 'bottom'
                         }
                     ]
                 }

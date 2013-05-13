@@ -355,6 +355,22 @@
                 "app/model/PediatricFormularyText.js"
             ],
             "className": "PediatricFormularyText"
+        },
+        "842364be-bc3d-4b47-bcda-986573d69ecb": {
+            "paths": [
+                "metadata/controller/ApplicationManagement",
+                "app/controller/override/ApplicationManagement.js",
+                "app/controller/ApplicationManagement.js"
+            ],
+            "className": "ApplicationManagement"
+        },
+        "e5b65351-c38c-4655-bde0-36710f2b9b8f": {
+            "paths": [
+                "metadata/view/Prescription",
+                "app/view/override/Prescription.js",
+                "app/view/Prescription.js"
+            ],
+            "className": "Prescription"
         }
     },
     "viewOrderMap": {
@@ -370,7 +386,8 @@
             "8d3c2693-4ff1-497b-ab1e-18806fa46945",
             "2c7d0a7c-c2e1-44d0-bdcd-dd4cf9591706",
             "61201153-6dfc-4e61-b75c-2cc5c6ba16fb",
-            "6d194bb5-4c66-4c78-9cc7-67ec727820fe"
+            "6d194bb5-4c66-4c78-9cc7-67ec727820fe",
+            "e5b65351-c38c-4655-bde0-36710f2b9b8f"
         ],
         "store": [
             "2b680bb8-d5bb-4395-85fc-47e4c3fed379",
@@ -389,7 +406,8 @@
             "371dd9f6-c9ef-4da9-9fe2-2cab42de3a91",
             "57f49ced-114d-4b6a-bb77-0993b1b42be4",
             "8d164103-68ec-4114-82e9-8aada84df07a",
-            "bae8674a-b31a-4466-bfb5-37fd373d8ac4"
+            "bae8674a-b31a-4466-bfb5-37fd373d8ac4",
+            "842364be-bc3d-4b47-bcda-986573d69ecb"
         ],
         "model": [
             "766b173c-b99d-43fd-a4c2-e751bb85d8d1",

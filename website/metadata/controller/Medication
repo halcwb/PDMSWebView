@@ -47,7 +47,7 @@
                 "implHandler": [
                     "console.log(record.data.id);\r",
                     "if (record.data.id.length == 7) {\r",
-                    "\tPDMSWebView.model.PediatricFormularyText.load({query:'ATC:' + record.data.id}, { success: this.showPediatricFormularyText });\r",
+                    "    PDMSWebView.model.PediatricFormularyText.load({query:'ATC:' + record.data.id}, { success: this.showPediatricFormularyText });\r",
                     "}\r",
                     ""
                 ],
@@ -85,13 +85,13 @@
             },
             "codeClass": null,
             "userConfig": {
-                "fn": "onDrugrepositoryItemMove",
+                "fn": "onViewNodeDragOver",
                 "implHandler": [
-                    ""
+                    "Ext.Msg.alert('Going to prescribe ', index);"
                 ],
-                "name": "itemmove",
+                "name": "nodedragover",
                 "scope": "me",
-                "designer|targetType": "DrugRepository",
+                "designer|targetType": "Ext.tree.View",
                 "designer|controlQuery": "treepanel"
             },
             "designerId": "d0e5a799-5de7-4a77-bf56-509a2ac3acc8"

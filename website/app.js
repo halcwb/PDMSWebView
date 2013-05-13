@@ -49,7 +49,8 @@ Ext.application({
         'Orders',
         'DrugRepository',
         'TherapeuticGroupList',
-        'PediatricFormularyText'
+        'PediatricFormularyText',
+        'Prescription'
     ],
     autoCreateViewport: true,
     controllers: [
@@ -59,7 +60,8 @@ Ext.application({
         'Patients',
         'DetailsPanel',
         'Orders',
-        'Medication'
+        'Medication',
+        'ApplicationManagement'
     ],
     name: 'PDMSWebView',
 
@@ -70,10 +72,31 @@ Ext.application({
         Ext.Ajax.disableCaching = false;
 
         PDMSWebView.RavenDB = "http://" + document.location.host + ":8080/";
+
+
     },
 
     createUrl: function(origUrl, host) {
         return host + origUrl.split('/').splice(3).join('/');
+    },
+
+    fullScreen: function() {
+        var element = Ext.ComponentQuery.query('viewport')[0].getEl().dom;
+
+        // These function will not exist in the browsers that don't support fullscreen mode yet, 
+        // so we'll have to check to see if they're available before calling them.
+
+        if (element.mozRequestFullScreen) {
+            // This is how to go into fullscren mode in Firefox
+            // Note the "moz" prefix, which is short for Mozilla.
+            //element.mozRequestFullScreen();
+        } else if (element.webkitRequestFullScreen) {
+            // This is how to go into fullscreen mode in Chrome and Safari
+            // Both of those browsers are based on the Webkit project, hence the same prefix.
+            //element.webkitRequestFullScreen();
+        }
+        // Hooray, now we're in fullscreen mode!
+
     }
 
 });

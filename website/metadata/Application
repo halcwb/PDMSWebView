@@ -36,7 +36,8 @@
             "Orders",
             "DrugRepository",
             "TherapeuticGroupList",
-            "PediatricFormularyText"
+            "PediatricFormularyText",
+            "Prescription"
         ],
         "autoCreateViewport": true,
         "controllers": [
@@ -46,7 +47,8 @@
             "Patients",
             "DetailsPanel",
             "Orders",
-            "Medication"
+            "Medication",
+            "ApplicationManagement"
         ],
         "name": "PDMSWebView"
     },
@@ -67,7 +69,9 @@
                     "Ext.Ajax.useDefaultHeader = false;\r",
                     "Ext.Ajax.disableCaching = false;\r",
                     "\r",
-                    "PDMSWebView.RavenDB = \"http://\" + document.location.host + \":8080/\";"
+                    "PDMSWebView.RavenDB = \"http://\" + document.location.host + \":8080/\";\r",
+                    "\r",
+                    ""
                 ]
             },
             "designerId": "242429f8-cc59-4698-97db-f9aebe3feffb",
@@ -97,6 +101,36 @@
                 ]
             },
             "designerId": "e6badbb8-0717-4e4b-85ba-48e9c3914ec5"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "fullScreen",
+                "implHandler": [
+                    "var element = Ext.ComponentQuery.query('viewport')[0].getEl().dom;\r",
+                    "\r",
+                    "// These function will not exist in the browsers that don't support fullscreen mode yet, \r",
+                    "// so we'll have to check to see if they're available before calling them.\r",
+                    "\r",
+                    "if (element.mozRequestFullScreen) {\r",
+                    "    // This is how to go into fullscren mode in Firefox\r",
+                    "    // Note the \"moz\" prefix, which is short for Mozilla.\r",
+                    "    //element.mozRequestFullScreen();\r",
+                    "} else if (element.webkitRequestFullScreen) {\r",
+                    "    // This is how to go into fullscreen mode in Chrome and Safari\r",
+                    "    // Both of those browsers are based on the Webkit project, hence the same prefix.\r",
+                    "    //element.webkitRequestFullScreen();\r",
+                    "}\r",
+                    "// Hooray, now we're in fullscreen mode!\r",
+                    ""
+                ]
+            },
+            "designerId": "07fe4872-0287-40df-ac0f-baf5efa3bb0f"
         }
     ]
 }

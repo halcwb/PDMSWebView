@@ -22,6 +22,9 @@ Ext.define('PDMSWebView.view.DrugRepository', {
     collapsed: false,
     collapsible: false,
     title: 'Drug Repository',
+    enableColumnHide: false,
+    enableColumnMove: false,
+    rowLines: true,
     store: 'DrugRepository',
     rootVisible: false,
 
@@ -30,7 +33,12 @@ Ext.define('PDMSWebView.view.DrugRepository', {
 
         Ext.applyIf(me, {
             viewConfig: {
-
+                itemId: 'drugrepositoryview',
+                plugins: [
+                    Ext.create('Ext.tree.plugin.TreeViewDragDrop', {
+                        ddGroup: 'ddPrescription'
+                    })
+                ]
             },
             columns: [
                 {
@@ -46,7 +54,10 @@ Ext.define('PDMSWebView.view.DrugRepository', {
                     dataIndex: 'Route',
                     text: 'Route'
                 }
-            ]
+            ],
+            selModel: Ext.create('Ext.selection.RowModel', {
+                mode: 'SINGLE'
+            })
         });
 
         me.callParent(arguments);
