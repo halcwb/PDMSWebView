@@ -1,0 +1,17 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": 1000,
+        "itemId": "pediatricformularytext",
+        "width": 1000,
+        "designer|userClassName": "PediatricFormularyText",
+        "autoScroll": true,
+        "title": "Pediatric Formulary Text"
+    },
+    "designerId": "6d194bb5-4c66-4c78-9cc7-67ec727820fe"
+}

@@ -29,7 +29,7 @@ Ext.define('PDMSWebView.store.TherapeuticGroup', {
             storeId: 'MyJsonStore',
             proxy: {
                 type: 'ajax',
-                url: 'http://localhost:8080/databases/Test/indexes/TherapeuticGroupNames?query&pageSize=128&sort=Name',
+                url: 'http://localhost:8080/databases/GStandDb/indexes/AnatomicalMainGroups?query&pageSize=128&sort=Name',
                 reader: {
                     type: 'json',
                     root: 'Results'

@@ -1,0 +1,68 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "PediatricFormularyText"
+    },
+    "designerId": "2d365709-fc94-46aa-abf8-72126b6371ab",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ATC"
+            },
+            "designerId": "79643aef-30bd-412e-9520-36d57ac3f8bd"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Html"
+            },
+            "designerId": "fdd3e5ae-b76d-4f0d-bb29-c9a7b809a3bd"
+        },
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "idParam": "query",
+                "url": "http://localhost:8080/databases/PediatricFormulary/indexes/Texts?"
+            },
+            "designerId": "f8837bed-e92e-4359-b780-27cc34bd7e90",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "idProperty": "",
+                        "root": "Results",
+                        "metaProperty": "@metadata",
+                        "record": ""
+                    },
+                    "designerId": "821175e0-3a3e-4278-8e73-f68766a375ae"
+                }
+            ]
+        }
+    ]
+}

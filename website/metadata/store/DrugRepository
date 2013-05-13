@@ -7,8 +7,7 @@
     "codeClass": null,
     "userConfig": {
         "autoLoad": true,
-        "autoSync": true,
-        "model": "TreeRecord",
+        "model": "ATCItem",
         "storeId": "MyXmlTreeStore1",
         "designer|userClassName": "DrugRepository",
         "root": [
@@ -40,8 +39,9 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "root": "root",
-                        "record": "record"
+                        "idProperty": "Id",
+                        "root": "Root",
+                        "record": "GStandItem"
                     },
                     "designerId": "5cf5d703-87fa-4f5e-8342-a586f6b50b99"
                 }

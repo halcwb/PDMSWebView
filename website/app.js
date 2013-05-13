@@ -23,7 +23,9 @@ Ext.application({
         'Department',
         'PatientInfo',
         'Order',
-        'TreeRecord'
+        'TreeRecord',
+        'ATCItem',
+        'PediatricFormularyText'
     ],
     stores: [
         'Departments',
@@ -46,7 +48,8 @@ Ext.application({
         'PatientRecord',
         'Orders',
         'DrugRepository',
-        'TherapeuticGroupList'
+        'TherapeuticGroupList',
+        'PediatricFormularyText'
     ],
     autoCreateViewport: true,
     controllers: [

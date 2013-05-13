@@ -16,6 +16,10 @@
 Ext.define('PDMSWebView.controller.Medication', {
     extend: 'Ext.app.Controller',
 
+    views: [
+        'PediatricFormularyText'
+    ],
+
     onGridpanelViewReady: function(tablepanel, eOpts) {
         var store = Ext.StoreMgr.get('TherapeuticGroup');
 
@@ -23,10 +27,31 @@ Ext.define('PDMSWebView.controller.Medication', {
         store.load();
     },
 
+    onDrugrepositoryItemDblClick: function(dataview, record, item, index, e, eOpts) {
+        console.log(record.data.id);
+        if (record.data.id.length == 7) {
+            PDMSWebView.model.PediatricFormularyText.load({query:'ATC:' + record.data.id}, { success: this.showPediatricFormularyText });
+        }
+
+    },
+
+    onDrugrepositoryItemMove: function(nodeinterface, oldParent, newParent, index, eOpts) {
+
+    },
+
+    showPediatricFormularyText: function(text) {
+        console.log(text);
+        PDMSWebView.view.PediatricFormularyText.create({html:text.data.Html}).show();
+    },
+
     init: function(application) {
         this.control({
             "gridpanel": {
                 viewready: this.onGridpanelViewReady
+            },
+            "treepanel": {
+                itemdblclick: this.onDrugrepositoryItemDblClick,
+                itemmove: this.onDrugrepositoryItemMove
             }
         });
     }

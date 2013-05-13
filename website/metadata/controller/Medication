@@ -6,6 +6,9 @@
     },
     "codeClass": null,
     "userConfig": {
+        "views": [
+            "PediatricFormularyText"
+        ],
         "designer|userClassName": "Medication"
     },
     "designerId": "bae8674a-b31a-4466-bfb5-37fd373d8ac4",
@@ -31,6 +34,67 @@
                 "designer|controlQuery": "gridpanel"
             },
             "designerId": "82402b68-d0ea-486a-9cc2-c1e885c92a19"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onDrugrepositoryItemDblClick",
+                "implHandler": [
+                    "console.log(record.data.id);\r",
+                    "if (record.data.id.length == 7) {\r",
+                    "\tPDMSWebView.model.PediatricFormularyText.load({query:'ATC:' + record.data.id}, { success: this.showPediatricFormularyText });\r",
+                    "}\r",
+                    ""
+                ],
+                "name": "itemdblclick",
+                "scope": "me",
+                "designer|targetType": "DrugRepository",
+                "designer|controlQuery": "treepanel"
+            },
+            "designerId": "7b0190ee-1647-4bf1-8b16-6d8796830668"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "showPediatricFormularyText",
+                "designer|params": [
+                    "text"
+                ],
+                "implHandler": [
+                    "console.log(text);\r",
+                    "PDMSWebView.view.PediatricFormularyText.create({html:text.data.Html}).show();"
+                ]
+            },
+            "designerId": "9839ab75-3fc1-4028-9b72-16a97a366f82"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onDrugrepositoryItemMove",
+                "implHandler": [
+                    ""
+                ],
+                "name": "itemmove",
+                "scope": "me",
+                "designer|targetType": "DrugRepository",
+                "designer|controlQuery": "treepanel"
+            },
+            "designerId": "d0e5a799-5de7-4a77-bf56-509a2ac3acc8"
         }
     ]
 }

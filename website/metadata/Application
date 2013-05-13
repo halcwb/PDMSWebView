@@ -10,7 +10,9 @@
             "Department",
             "PatientInfo",
             "Order",
-            "TreeRecord"
+            "TreeRecord",
+            "ATCItem",
+            "PediatricFormularyText"
         ],
         "stores": [
             "Departments",
@@ -33,7 +35,8 @@
             "PatientRecord",
             "Orders",
             "DrugRepository",
-            "TherapeuticGroupList"
+            "TherapeuticGroupList",
+            "PediatricFormularyText"
         ],
         "autoCreateViewport": true,
         "controllers": [

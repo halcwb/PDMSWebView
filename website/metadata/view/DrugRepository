@@ -10,7 +10,7 @@
         "width": 600,
         "designer|userClassName": "DrugRepository",
         "designer|userAlias": "drugrepository",
-        "collapsed": true,
+        "collapsed": false,
         "collapsible": false,
         "title": "Drug Repository",
         "store": "DrugRepository",
@@ -38,11 +38,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "dataIndex": "text",
-                "text": "Nodes",
+                "width": 475,
+                "dataIndex": "Name",
+                "text": "Groups",
                 "flex": 1
             },
-            "designerId": "dee98c10-4313-437a-99bf-37e1e562b743"
+            "designerId": "8d1ab15b-9c86-4a60-b6df-5728e7502e7c"
         },
         {
             "type": "Ext.grid.column.Column",
@@ -52,10 +53,12 @@
             },
             "codeClass": null,
             "userConfig": {
-                "dataIndex": "value",
-                "text": "Value"
+                "defaultWidth": 150,
+                "dataIndex": "Route",
+                "text": "Route",
+                "flex": null
             },
-            "designerId": "1ad729af-b77f-4eef-8aee-0ce1ec0609a6"
+            "designerId": "02d50c30-c5cc-4406-99dd-7baa56a60f7e"
         }
     ]
 }

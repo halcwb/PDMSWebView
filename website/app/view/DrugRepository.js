@@ -19,7 +19,7 @@ Ext.define('PDMSWebView.view.DrugRepository', {
 
     itemId: 'drugrepository',
     width: 600,
-    collapsed: true,
+    collapsed: false,
     collapsible: false,
     title: 'Drug Repository',
     store: 'DrugRepository',
@@ -35,14 +35,16 @@ Ext.define('PDMSWebView.view.DrugRepository', {
             columns: [
                 {
                     xtype: 'treecolumn',
-                    dataIndex: 'text',
-                    text: 'Nodes',
+                    width: 475,
+                    dataIndex: 'Name',
+                    text: 'Groups',
                     flex: 1
                 },
                 {
                     xtype: 'gridcolumn',
-                    dataIndex: 'value',
-                    text: 'Value'
+                    defaultWidth: 150,
+                    dataIndex: 'Route',
+                    text: 'Route'
                 }
             ]
         });

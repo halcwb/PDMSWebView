@@ -17,7 +17,7 @@ Ext.define('PDMSWebView.store.DrugRepository', {
     extend: 'Ext.data.TreeStore',
 
     requires: [
-        'PDMSWebView.model.TreeRecord'
+        'PDMSWebView.model.ATCItem'
     ],
 
     constructor: function(cfg) {
@@ -25,8 +25,7 @@ Ext.define('PDMSWebView.store.DrugRepository', {
         cfg = cfg || {};
         me.callParent([Ext.apply({
             autoLoad: true,
-            autoSync: true,
-            model: 'PDMSWebView.model.TreeRecord',
+            model: 'PDMSWebView.model.ATCItem',
             storeId: 'MyXmlTreeStore1',
             root: {
                 text: 'Formulary',
@@ -37,8 +36,9 @@ Ext.define('PDMSWebView.store.DrugRepository', {
                 url: 'http://localhost/pdmswebservices/drugrepository.asmx/GetDrugRepository',
                 reader: {
                     type: 'xml',
-                    root: 'root',
-                    record: 'record'
+                    idProperty: 'Id',
+                    root: 'Root',
+                    record: 'GStandItem'
                 }
             }
         }, cfg)]);

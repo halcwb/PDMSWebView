@@ -1,0 +1,66 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ATCItem"
+    },
+    "designerId": "bea67356-814f-46ee-b319-20d903d153fc",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Id",
+                "type": "string"
+            },
+            "designerId": "9bd02be4-c34c-4dce-a815-433cd710be1c"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Name",
+                "type": "string"
+            },
+            "designerId": "7433084f-22d5-4431-be14-ea72576f60ba"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Shape",
+                "type": "string"
+            },
+            "designerId": "5db5b600-9948-4b08-a2b8-f462ce68f073"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Route",
+                "type": "string"
+            },
+            "designerId": "6a19d333-e890-4e00-b787-9cdeaa25f0f9"
+        }
+    ]
+}

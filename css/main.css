@@ -1,0 +1,308 @@
+/* CSS Document */
+
+#container {
+width:810px;
+background-image:url(../img/shadow.png);
+background-repeat:repeat-y;
+height:auto;
+}
+
+#content {
+width:800px;
+}
+
+#header {
+width:800px;
+border-top: solid #CCCCCC 1px;
+height:82px;
+background-image:url(../img/header.png);
+background-repeat:no-repeat;
+}
+
+
+#selection{
+float:left;
+height:100px;
+width:354px;
+background-color:#06357d;
+border-top:1px solid #FFFFFF;
+}
+
+#anchor{
+	background-color:#06357d;
+	font-family:"Lucida Sans Unicode", "Lucida Sans", Tahoma;
+	font-size:12px;
+	height:20px;
+	color:#FFFFFF;
+}
+#anchor a{
+	color:#FFFFFF;
+}
+#select {
+}
+
+#picture {
+background-image:url(../img/picture.png);
+height:207px;
+}
+
+#toplink{
+	text-align:right;
+	width:95%;
+}
+
+#search {
+width:475px;
+height:72px;
+float:right;
+}
+
+#select {
+font-family:"Lucida Sans Unicode", "Lucida Sans", Tahoma;
+font-size:12px;
+line-height:15px;
+color:#FFFFFF;
+text-align:left;
+padding: 5px 0px 0px 5px;
+}
+
+#select p {
+padding: 0px 0px 0px 0px;
+}
+
+#select a {
+color:#FFFFFF; 
+font-family:Arial, Helvetica, sans-serif; 
+font-size:11px; 
+font-weight:bold;
+}
+
+#menu table {
+width:100px;
+}
+
+#menu table tr td {
+font-family:"Lucida Sans Unicode", "Lucida Sans", Tahoma;
+text-align:left;
+font-size:12px;
+width:auto;
+padding-right:2px;
+}
+
+#menu table tr td a {
+display:block;
+background-color:#9fbbea;
+text-decoration:none;
+color:#06357d;
+}
+
+#menu table tr td a:hover {
+display:block;
+background-color:#557cd7;
+color:#FFFFFF;
+}
+
+
+#menu {
+margin-top:0px;
+float: left;
+width:100px;
+}
+
+#box {
+margin-top:24px;
+margin-left:3px;
+text-align:left;
+}
+
+#searchrequest {
+margin-top:120px;
+text-align:left;
+margin-left:10px;
+font-family:"Lucida Sans Unicode", "Lucida Sans", Tahoma;
+font-size:12px;
+}
+a{
+color: #000000;
+}
+
+
+#results {
+font-family:"Lucida Sans Unicode", "Lucida Sans", Tahoma;
+font-size:12px;
+border-top:solid 1px #999999;
+text-align:left;
+padding-left:10px;
+padding-right:10px;
+}
+
+#bottom {
+background-image:url(../img/shadowbot.png);
+background-repeat:no-repeat;
+width:810px;
+height:5px;
+}
+
+h3 a {
+font-size:11px;
+line-height:12px;
+}
+
+#searchresults {
+font-family:"Lucida Sans Unicode", "Lucida Sans", Tahoma;
+font-size:12px;
+text-align:left;
+margin-left:10px;
+
+}
+
+#disclaimer {
+font-family:Arial, Helvetica, sans-serif;
+font-size:9px;
+color:#999999;
+text-align:justify;
+}
+
+#titletext {
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+font-size:14px;
+}
+
+#button a {
+display:block; 
+background-color:#05347a;
+padding:5px;
+text-decoration:none;
+color:#FFFFFF;
+border:solid 1px #CCCCCC;
+width:225px;
+}
+
+#button a:hover {
+background-color:#96c0e6;
+}
+
+
+h2 span{
+	font-size: 10px;
+	font-weight: normal;
+	color: #666;
+}
+
+#dosis p {
+	display:inline;
+}
+
+*:first-child+html {} * html #dosis p 
+{ margin-right:4px;
+}
+
+*:first-child+html #dosis p{
+	padding-right:4px;
+	}
+
+/* Add a margin - for this demo only - and a relative position with a high z-index to make it appear over any element below */
+#menu_container {position:relative; width:445px; height:25px; z-index:100; float:left; font-family:Arial, Helvetica, sans-serif;}
+
+/* Get rid of the margin, padding and bullets in the unordered lists */
+#pmenu, #pmenu ul {padding:0; margin:0; list-style-type: none;}
+
+/* Set up the link size, color and borders */
+#pmenu a, #pmenu a:visited {display:block;width:88px; font-size:11px; color:#fff; height:25px; line-height:24px; text-decoration:none; text-indent:5px; border:1px solid #FFFFFF; border-width:1px 0 1px 1px;}
+
+
+
+/* Set up the sub level borders */
+#pmenu li ul li a, #pmenu li ul li a:visited {border-width:0 1px 1px 1px; border-color:#FFFFFF; display:block;width:140px;}
+#pmenu li a.enclose, #pmenu li a.enclose:visited {border-width:1px; border-color:#FFFFFF;}
+
+/* Set up the list items */
+#pmenu li {float:left; background:#06357d;}
+
+/* For Non-IE browsers and IE7 */
+#pmenu li:hover {position:relative;}
+/* Make the hovered list color persist */
+#pmenu li:hover > a {background:#06357d; color: #00CCFF;}
+/* Set up the sublevel lists with a position absolute for flyouts and overrun padding. The transparent gif is for IE to work */
+#pmenu li ul {display:none;}
+/* For Non-IE and IE7 make the sublevels visible on list hover. This is all it needs */
+#pmenu li:hover > ul {display:block; position:absolute; top:-11px; left:80px; padding:10px 30px 30px 30px; background:transparent url(transparent.gif); width:120px;}
+/* Position the first sub level beneath the top level liinks */
+#pmenu > li:hover > ul {left:-30px; top:16px;}
+
+/* get rid of the table */
+#pmenu table {position:absolute; border-collapse:collapse; top:0; left:0; z-index:100; font-size:1em;}
+
+/* For IE5.5 and IE6 give the hovered links a position relative and a change of background and foreground color. This is needed to trigger IE to show the sub levels */
+* html #pmenu li a:hover {position:relative; background:#06357d; color: #00CCFF;}
+
+/* For accessibility of the top level menu when tabbing */
+#pmenu li a:active, #pmenu li a:focus {background:#06357d; color: #00CCFF;}
+
+/* Set up the pointers for the sub level indication */
+#pmenu li.fly {background:#06357d url(http://www.cssplay.co.uk/menus/fly.gif) no-repeat right center;}
+#pmenu li.drop {background:#06357d url(http://www.cssplay.co.uk/menus/drop.gif) no-repeat right center;}
+
+
+/* This lot is for IE5.5 and IE6 ONLY and is necessary to make the sublevels appear */
+
+/* change the drop down levels from display:none; to visibility:hidden; */
+* html #pmenu li ul {visibility:hidden; display:block; position:absolute; top:-11px; left:80px; padding:10px 30px 30px 30px; background:transparent url(transparent.gif);}
+
+/* keep the third level+ hidden when you hover on first level link */
+#pmenu li a:hover ul ul{
+visibility:hidden;
+}
+/* keep the fourth level+ hidden when you hover on second level link */
+#pmenu li a:hover ul a:hover ul ul{
+visibility:hidden;
+}
+/* keep the fifth level hidden when you hover on third level link */
+#pmenu li a:hover ul a:hover ul a:hover ul ul{
+visibility:hidden;
+}
+/* keep the sixth level hidden when you hover on fourth level link */
+#pmenu li a:hover ul a:hover ul a:hover ul a:hover ul ul {
+visibility:hidden;
+}
+
+/* make the second level visible when hover on first level link and position it */
+#pmenu li a:hover ul {
+visibility:visible; left:-30px; top:14px; lef\t:-31px; to\p:15px;
+}
+
+/* make the third level visible when you hover over second level link and position it and all further levels */
+#pmenu li a:hover ul a:hover ul{ 
+visibility:visible; top:-11px; left:80px;
+}
+/* make the fourth level visible when you hover over third level link */
+#pmenu li a:hover ul a:hover ul a:hover ul { 
+visibility:visible;
+}
+/* make the fifth level visible when you hover over fourth level link */
+#pmenu li a:hover ul a:hover ul a:hover ul a:hover ul { 
+visibility:visible;
+}
+/* make the sixth level visible when you hover over fifth level link */
+#pmenu li a:hover ul a:hover ul a:hover ul a:hover ul a:hover ul { 
+visibility:visible;
+}
+/* If you can see the pattern in the above IE5.5 and IE6 style then you can add as many sub levels as you like */
+
+li.max-dosis a {
+	color:#09F;
+	text-decoration:underline;
+	}
+	
+li.max-dosis a:hover {
+	color:#03F;
+	text-decoration:none;
+}
+
+.err
+{
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 12px;
+	color: red;
+}

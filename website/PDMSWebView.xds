@@ -331,6 +331,30 @@
                 "app/store/Product.js"
             ],
             "className": "Product"
+        },
+        "bea67356-814f-46ee-b319-20d903d153fc": {
+            "paths": [
+                "metadata/model/ATCItem",
+                "app/model/override/ATCItem.js",
+                "app/model/ATCItem.js"
+            ],
+            "className": "ATCItem"
+        },
+        "6d194bb5-4c66-4c78-9cc7-67ec727820fe": {
+            "paths": [
+                "metadata/view/PediatricFormularyText",
+                "app/view/override/PediatricFormularyText.js",
+                "app/view/PediatricFormularyText.js"
+            ],
+            "className": "PediatricFormularyText"
+        },
+        "2d365709-fc94-46aa-abf8-72126b6371ab": {
+            "paths": [
+                "metadata/model/PediatricFormularyText",
+                "app/model/override/PediatricFormularyText.js",
+                "app/model/PediatricFormularyText.js"
+            ],
+            "className": "PediatricFormularyText"
         }
     },
     "viewOrderMap": {
@@ -345,7 +369,8 @@
             "a7b9f490-ac80-4ea9-8bfd-18c67c1a097f",
             "8d3c2693-4ff1-497b-ab1e-18806fa46945",
             "2c7d0a7c-c2e1-44d0-bdcd-dd4cf9591706",
-            "61201153-6dfc-4e61-b75c-2cc5c6ba16fb"
+            "61201153-6dfc-4e61-b75c-2cc5c6ba16fb",
+            "6d194bb5-4c66-4c78-9cc7-67ec727820fe"
         ],
         "store": [
             "2b680bb8-d5bb-4395-85fc-47e4c3fed379",
@@ -375,7 +400,9 @@
             "b2187503-a2fd-4462-8ee0-6c498d9a5cbb",
             "c51d6acd-9773-4398-ab5a-e2d489bdfa3e",
             "0ab9919a-51f8-4990-ad77-832b4a546999",
-            "ed446f99-018e-4469-9ad2-f2417793ffdb"
+            "ed446f99-018e-4469-9ad2-f2417793ffdb",
+            "bea67356-814f-46ee-b319-20d903d153fc",
+            "2d365709-fc94-46aa-abf8-72126b6371ab"
         ],
         "resource": [
             "3e73bda5-699f-409f-a032-04ddbd001ddb",

@@ -21,7 +21,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "url": "http://localhost:8080/databases/Test/indexes/TherapeuticGroupNames?query&pageSize=128&sort=Name"
+                "url": "http://localhost:8080/databases/GStandDb/indexes/AnatomicalMainGroups?query&pageSize=128&sort=Name"
             },
             "designerId": "098e6373-c30d-4cd8-9c5c-5ce9ccb4fd2b",
             "cn": [
