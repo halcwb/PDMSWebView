@@ -25,7 +25,8 @@ Ext.application({
         'Order',
         'TreeRecord',
         'ATCItem',
-        'PediatricFormularyText'
+        'PediatricFormularyText',
+        'Unit'
     ],
     stores: [
         'Departments',
@@ -35,7 +36,8 @@ Ext.application({
         'Orders',
         'DrugRepository',
         'TherapeuticGroup',
-        'Product'
+        'Product',
+        'Unit'
     ],
     views: [
         'PDMSWebView',
@@ -50,7 +52,8 @@ Ext.application({
         'DrugRepository',
         'TherapeuticGroupList',
         'PediatricFormularyText',
-        'Prescription'
+        'Prescription',
+        'QuantityUnit'
     ],
     autoCreateViewport: true,
     controllers: [

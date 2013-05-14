@@ -71,7 +71,7 @@
                             "designerId": "14e9ccfb-0582-4076-84fa-b4d51d22e3b7"
                         },
                         {
-                            "type": "Ext.form.field.Number",
+                            "type": "linkedinstance",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
@@ -79,28 +79,31 @@
                             "codeClass": null,
                             "userConfig": {
                                 "layout|flex": null,
-                                "width": 100,
-                                "fieldLabel": "Quantity",
-                                "labelAlign": "top",
-                                "labelSeparator": " "
+                                "itemId": "substanceQuantityUnit"
                             },
-                            "designerId": "26916631-f3ed-4689-a961-f3140832d03c"
-                        },
-                        {
-                            "type": "Ext.form.field.ComboBox",
-                            "reference": {
-                                "name": "items",
-                                "type": "array"
-                            },
-                            "codeClass": null,
-                            "userConfig": {
-                                "layout|flex": null,
-                                "width": 100,
-                                "fieldLabel": "Unit",
-                                "labelAlign": "top",
-                                "labelSeparator": " "
-                            },
-                            "designerId": "4cc7d079-857e-4a02-91e3-cee75958960a"
+                            "designerId": "05fbdedd-6f1d-4230-954d-db1f68bcf0a7",
+                            "masterInstanceId": "18b193e8-d5af-4893-a5da-9032a7b8b400",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onFieldcontainerAfterRender",
+                                        "implHandler": [
+                                            "var store = Ext.StoreMgr.get('Unit');\r",
+                                            "store.proxy.url = 'http://localhost:8080/databases/GStandDb/indexes/SubstanceUnits?';\r",
+                                            "component.setStore(store);"
+                                        ],
+                                        "name": "afterrender",
+                                        "scope": "me"
+                                    },
+                                    "designerId": "ac43f4c9-2b53-45a7-b96f-d03af84eccd7"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -200,34 +203,39 @@
                             "designerId": "5ffbc5ca-e7db-419b-8a85-a54ffb789d0c"
                         },
                         {
-                            "type": "Ext.form.field.Number",
+                            "type": "linkedinstance",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "width": 100,
-                                "fieldLabel": "Quantity",
-                                "labelAlign": "top",
-                                "labelSeparator": " "
+                                "layout|flex": 1,
+                                "itemId": "solutionQuantityUnit"
                             },
-                            "designerId": "70b379c6-9e67-4110-a2df-d37487f6a61c"
-                        },
-                        {
-                            "type": "Ext.form.field.ComboBox",
-                            "reference": {
-                                "name": "items",
-                                "type": "array"
-                            },
-                            "codeClass": null,
-                            "userConfig": {
-                                "width": 100,
-                                "fieldLabel": "Unit",
-                                "labelAlign": "top",
-                                "labelSeparator": " "
-                            },
-                            "designerId": "2ecb7fc9-ff1f-48e4-b3eb-14c9a65c74bf"
+                            "designerId": "9fa9c41a-d6bf-4b65-aa3b-6286e22d7948",
+                            "masterInstanceId": "18b193e8-d5af-4893-a5da-9032a7b8b400",
+                            "cn": [
+                                {
+                                    "type": "basiceventbinding",
+                                    "reference": {
+                                        "name": "listeners",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "fn": "onFieldcontainerAfterRender1",
+                                        "implHandler": [
+                                            "var store = Ext.create('PDMSWebView.store.Unit');\r",
+                                            "store.proxy.url = 'http://localhost:8080/databases/GStandDb/indexes/ShapeUnits?';\r",
+                                            "component.setStore(store);"
+                                        ],
+                                        "name": "afterrender",
+                                        "scope": "me"
+                                    },
+                                    "designerId": "df9f578d-08d0-409f-8973-dd8c2d32f1a6"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1231,7 +1239,7 @@
                     "        formPanel.body.highlight();\r",
                     "    },\r",
                     "    notifyDrop  : function(ddSource, e, data){\r",
-                    "        \r",
+                    "\r",
                     "        console.log(data.records[0]);\r",
                     "\r",
                     "        Ext.Msg.alert('going to prescribe: ' + data.records[0].data.Name);\r",

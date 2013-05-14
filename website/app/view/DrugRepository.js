@@ -36,7 +36,10 @@ Ext.define('PDMSWebView.view.DrugRepository', {
                 itemId: 'drugrepositoryview',
                 plugins: [
                     Ext.create('Ext.tree.plugin.TreeViewDragDrop', {
-                        ddGroup: 'ddPrescription'
+                        ddGroup: 'ddPrescription',
+                        displayField: 'Name',
+                        dragText: 'prescribe drug',
+                        enableDrop: false
                     })
                 ]
             },

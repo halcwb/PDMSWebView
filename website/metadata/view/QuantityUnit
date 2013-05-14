@@ -1,0 +1,78 @@
+{
+    "type": "Ext.form.FieldContainer",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "height": null,
+        "width": null,
+        "designer|userClassName": "QuantityUnit",
+        "designer|userAlias": "myfieldcontainer11",
+        "layout": "hbox",
+        "fieldLabel": "Label",
+        "hideLabel": true
+    },
+    "designerId": "18b193e8-d5af-4893-a5da-9032a7b8b400",
+    "cn": [
+        {
+            "type": "Ext.form.field.Number",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "width": 100,
+                "designer|displayName": "Quantity",
+                "fieldLabel": "Quantity",
+                "labelAlign": "top",
+                "labelSeparator": " "
+            },
+            "designerId": "26916631-f3ed-4689-a961-f3140832d03c"
+        },
+        {
+            "type": "Ext.form.field.ComboBox",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "width": 100,
+                "designer|displayName": "Unit",
+                "fieldLabel": "Unit",
+                "labelAlign": "top",
+                "labelSeparator": " ",
+                "editable": false,
+                "displayField": "Name",
+                "store": null,
+                "valueField": "Name"
+            },
+            "designerId": "4cc7d079-857e-4a02-91e3-cee75958960a"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "setStore",
+                "designer|params": [
+                    "store"
+                ],
+                "implHandler": [
+                    "var me = this;\r",
+                    "me.items.items[1].store = store;"
+                ]
+            },
+            "designerId": "225764fe-4bf3-4484-a412-b7b38ecb43a4"
+        }
+    ]
+}

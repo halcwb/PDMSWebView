@@ -371,6 +371,30 @@
                 "app/view/Prescription.js"
             ],
             "className": "Prescription"
+        },
+        "18b193e8-d5af-4893-a5da-9032a7b8b400": {
+            "paths": [
+                "metadata/view/QuantityUnit",
+                "app/view/override/QuantityUnit.js",
+                "app/view/QuantityUnit.js"
+            ],
+            "className": "QuantityUnit"
+        },
+        "59519680-380a-4401-b46e-76abd8ab4eab": {
+            "paths": [
+                "metadata/store/Unit",
+                "app/store/override/Unit.js",
+                "app/store/Unit.js"
+            ],
+            "className": "Unit"
+        },
+        "59440b81-dc27-47ba-8ba9-d13c46645d54": {
+            "paths": [
+                "metadata/model/Unit",
+                "app/model/override/Unit.js",
+                "app/model/Unit.js"
+            ],
+            "className": "Unit"
         }
     },
     "viewOrderMap": {
@@ -387,7 +411,8 @@
             "2c7d0a7c-c2e1-44d0-bdcd-dd4cf9591706",
             "61201153-6dfc-4e61-b75c-2cc5c6ba16fb",
             "6d194bb5-4c66-4c78-9cc7-67ec727820fe",
-            "e5b65351-c38c-4655-bde0-36710f2b9b8f"
+            "e5b65351-c38c-4655-bde0-36710f2b9b8f",
+            "18b193e8-d5af-4893-a5da-9032a7b8b400"
         ],
         "store": [
             "2b680bb8-d5bb-4395-85fc-47e4c3fed379",
@@ -397,7 +422,8 @@
             "c7cb8032-722c-4a0e-a932-2745471d46bc",
             "78876b05-f500-48a1-853a-1172c8ae9482",
             "226027ef-7887-4e7a-9f07-ff7874e933c5",
-            "d1bd8b4f-04d1-43ea-8b6b-9c552ffd9384"
+            "d1bd8b4f-04d1-43ea-8b6b-9c552ffd9384",
+            "59519680-380a-4401-b46e-76abd8ab4eab"
         ],
         "controller": [
             "0fd565c7-25fb-4d37-954b-6185087709fd",
@@ -420,7 +446,8 @@
             "0ab9919a-51f8-4990-ad77-832b4a546999",
             "ed446f99-018e-4469-9ad2-f2417793ffdb",
             "bea67356-814f-46ee-b319-20d903d153fc",
-            "2d365709-fc94-46aa-abf8-72126b6371ab"
+            "2d365709-fc94-46aa-abf8-72126b6371ab",
+            "59440b81-dc27-47ba-8ba9-d13c46645d54"
         ],
         "resource": [
             "3e73bda5-699f-409f-a032-04ddbd001ddb",

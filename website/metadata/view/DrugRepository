@@ -47,8 +47,11 @@
                         "designer|displayName": "DrugRepositoryDragDrop",
                         "designer|createClass": "",
                         "ddGroup": "ddPrescription",
+                        "displayField": "Name",
                         "dragGroup": null,
-                        "dropGroup": null
+                        "dragText": "prescribe drug",
+                        "dropGroup": null,
+                        "enableDrop": false
                     },
                     "designerId": "c2a96d49-41a8-444f-989f-3f90d475093e"
                 }

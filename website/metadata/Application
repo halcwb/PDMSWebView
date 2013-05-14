@@ -12,7 +12,8 @@
             "Order",
             "TreeRecord",
             "ATCItem",
-            "PediatricFormularyText"
+            "PediatricFormularyText",
+            "Unit"
         ],
         "stores": [
             "Departments",
@@ -22,7 +23,8 @@
             "Orders",
             "DrugRepository",
             "TherapeuticGroup",
-            "Product"
+            "Product",
+            "Unit"
         ],
         "views": [
             "PDMSWebView",
@@ -37,7 +39,8 @@
             "DrugRepository",
             "TherapeuticGroupList",
             "PediatricFormularyText",
-            "Prescription"
+            "Prescription",
+            "QuantityUnit"
         ],
         "autoCreateViewport": true,
         "controllers": [

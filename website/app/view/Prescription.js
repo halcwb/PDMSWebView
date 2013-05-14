@@ -17,6 +17,10 @@ Ext.define('PDMSWebView.view.Prescription', {
     extend: 'Ext.form.Panel',
     alias: 'widget.prescriptionform',
 
+    requires: [
+        'PDMSWebView.view.QuantityUnit'
+    ],
+
     layout: {
         columns: 3,
         type: 'table'
@@ -53,18 +57,14 @@ Ext.define('PDMSWebView.view.Prescription', {
                                     labelAlign: 'top'
                                 },
                                 {
-                                    xtype: 'numberfield',
-                                    width: 100,
-                                    fieldLabel: 'Quantity',
-                                    labelAlign: 'top',
-                                    labelSeparator: ' '
-                                },
-                                {
-                                    xtype: 'combobox',
-                                    width: 100,
-                                    fieldLabel: 'Unit',
-                                    labelAlign: 'top',
-                                    labelSeparator: ' '
+                                    xtype: 'myfieldcontainer11',
+                                    itemId: 'substanceQuantityUnit',
+                                    listeners: {
+                                        afterrender: {
+                                            fn: me.onFieldcontainerAfterRender,
+                                            scope: me
+                                        }
+                                    }
                                 }
                             ]
                         },
@@ -118,18 +118,15 @@ Ext.define('PDMSWebView.view.Prescription', {
                                     labelAlign: 'top'
                                 },
                                 {
-                                    xtype: 'numberfield',
-                                    width: 100,
-                                    fieldLabel: 'Quantity',
-                                    labelAlign: 'top',
-                                    labelSeparator: ' '
-                                },
-                                {
-                                    xtype: 'combobox',
-                                    width: 100,
-                                    fieldLabel: 'Unit',
-                                    labelAlign: 'top',
-                                    labelSeparator: ' '
+                                    xtype: 'myfieldcontainer11',
+                                    flex: 1,
+                                    itemId: 'solutionQuantityUnit',
+                                    listeners: {
+                                        afterrender: {
+                                            fn: me.onFieldcontainerAfterRender1,
+                                            scope: me
+                                        }
+                                    }
                                 }
                             ]
                         },
@@ -637,6 +634,18 @@ Ext.define('PDMSWebView.view.Prescription', {
         });
 
         me.callParent(arguments);
+    },
+
+    onFieldcontainerAfterRender: function(component, eOpts) {
+        var store = Ext.StoreMgr.get('Unit');
+        store.proxy.url = 'http://localhost:8080/databases/GStandDb/indexes/SubstanceUnits?';
+        component.setStore(store);
+    },
+
+    onFieldcontainerAfterRender1: function(component, eOpts) {
+        var store = Ext.create('PDMSWebView.store.Unit');
+        store.proxy.url = 'http://localhost:8080/databases/GStandDb/indexes/ShapeUnits?';
+        component.setStore(store);
     },
 
     onFormAfterLayout: function(container, layout, eOpts) {
