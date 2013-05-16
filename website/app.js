@@ -26,7 +26,10 @@ Ext.application({
         'TreeRecord',
         'ATCItem',
         'PediatricFormularyText',
-        'Unit'
+        'Unit',
+        'Prescription',
+        'Shape',
+        'QuantityUnit'
     ],
     stores: [
         'Departments',
@@ -37,7 +40,11 @@ Ext.application({
         'DrugRepository',
         'TherapeuticGroup',
         'Product',
-        'Unit'
+        'Unit',
+        'Generic',
+        'Shape',
+        'Route',
+        'QuantityUnit'
     ],
     views: [
         'PDMSWebView',

@@ -16,22 +16,16 @@
 Ext.define('PDMSWebView.model.Generic', {
     extend: 'Ext.data.Model',
 
-    uses: [
-        'PDMSWebView.model.Route'
-    ],
-
     fields: [
         {
-            name: 'ID',
+            mapping: 'Id',
+            name: 'Id',
             type: 'string'
         },
         {
+            mapping: 'Name',
             name: 'Name',
             type: 'string'
         }
-    ],
-
-    hasMany: {
-        model: 'PDMSWebView.model.Route'
-    }
+    ]
 });

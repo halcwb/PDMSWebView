@@ -395,6 +395,62 @@
                 "app/model/Unit.js"
             ],
             "className": "Unit"
+        },
+        "a72a064a-9486-4dce-9574-a26ee4df4c31": {
+            "paths": [
+                "metadata/model/Prescription",
+                "app/model/override/Prescription.js",
+                "app/model/Prescription.js"
+            ],
+            "className": "Prescription"
+        },
+        "6f5355e3-da2a-4bfe-b4f8-b9e27719c5b2": {
+            "paths": [
+                "metadata/store/Generic",
+                "app/store/override/Generic.js",
+                "app/store/Generic.js"
+            ],
+            "className": "Generic"
+        },
+        "a8609b40-7d3f-4578-9125-843ae4f59962": {
+            "paths": [
+                "metadata/store/Shape",
+                "app/store/override/Shape.js",
+                "app/store/Shape.js"
+            ],
+            "className": "Shape"
+        },
+        "c0a85312-053a-4e93-89c8-f65d939240ec": {
+            "paths": [
+                "metadata/store/Route",
+                "app/store/override/Route.js",
+                "app/store/Route.js"
+            ],
+            "className": "Route"
+        },
+        "0fedcd6e-9813-4e97-b1a1-7238fcfe3321": {
+            "paths": [
+                "metadata/model/Shape",
+                "app/model/override/Shape.js",
+                "app/model/Shape.js"
+            ],
+            "className": "Shape"
+        },
+        "96f70986-e82a-44f6-beea-09c93cc5bc92": {
+            "paths": [
+                "metadata/store/QuantityUnit",
+                "app/store/override/QuantityUnit.js",
+                "app/store/QuantityUnit.js"
+            ],
+            "className": "QuantityUnit"
+        },
+        "c8d0e3d8-6917-4e6c-9cc4-be3cdf1a6970": {
+            "paths": [
+                "metadata/model/QuantityUnit",
+                "app/model/override/QuantityUnit.js",
+                "app/model/QuantityUnit.js"
+            ],
+            "className": "QuantityUnit"
         }
     },
     "viewOrderMap": {
@@ -423,7 +479,11 @@
             "78876b05-f500-48a1-853a-1172c8ae9482",
             "226027ef-7887-4e7a-9f07-ff7874e933c5",
             "d1bd8b4f-04d1-43ea-8b6b-9c552ffd9384",
-            "59519680-380a-4401-b46e-76abd8ab4eab"
+            "59519680-380a-4401-b46e-76abd8ab4eab",
+            "96f70986-e82a-44f6-beea-09c93cc5bc92",
+            "6f5355e3-da2a-4bfe-b4f8-b9e27719c5b2",
+            "a8609b40-7d3f-4578-9125-843ae4f59962",
+            "c0a85312-053a-4e93-89c8-f65d939240ec"
         ],
         "controller": [
             "0fd565c7-25fb-4d37-954b-6185087709fd",
@@ -439,6 +499,7 @@
             "766b173c-b99d-43fd-a4c2-e751bb85d8d1",
             "749dd779-3c2e-4392-a873-ff2c5b2d9141",
             "bebee6c4-509e-4589-ac8c-53bf5bd2488b",
+            "0fedcd6e-9813-4e97-b1a1-7238fcfe3321",
             "8dacd087-8f29-47ba-ae4d-0fd357ea638f",
             "457060b2-2ec6-4802-9ffc-a25301eb1d8d",
             "b2187503-a2fd-4462-8ee0-6c498d9a5cbb",
@@ -447,7 +508,9 @@
             "ed446f99-018e-4469-9ad2-f2417793ffdb",
             "bea67356-814f-46ee-b319-20d903d153fc",
             "2d365709-fc94-46aa-abf8-72126b6371ab",
-            "59440b81-dc27-47ba-8ba9-d13c46645d54"
+            "59440b81-dc27-47ba-8ba9-d13c46645d54",
+            "a72a064a-9486-4dce-9574-a26ee4df4c31",
+            "c8d0e3d8-6917-4e6c-9cc4-be3cdf1a6970"
         ],
         "resource": [
             "3e73bda5-699f-409f-a032-04ddbd001ddb",

@@ -35,19 +35,6 @@
                 "type": "string"
             },
             "designerId": "89eb6bd9-7984-4c3f-9fa4-70fdc56b739a"
-        },
-        {
-            "type": "Ext.data.association.HasMany",
-            "reference": {
-                "name": "hasMany",
-                "type": "object"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "model": "Product",
-                "designer|displayName": "hasManyProduct"
-            },
-            "designerId": "3de8c42e-8401-4afb-aa09-0ae4652bfcf5"
         }
     ]
 }

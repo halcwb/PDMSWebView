@@ -65,8 +65,13 @@
                             "codeClass": null,
                             "userConfig": {
                                 "layout|flex": 1,
+                                "designer|displayName": "Generic",
                                 "fieldLabel": "Substance",
-                                "labelAlign": "top"
+                                "labelAlign": "top",
+                                "name": "Generic",
+                                "displayField": "Name",
+                                "queryMode": "local",
+                                "store": "Generic"
                             },
                             "designerId": "14e9ccfb-0582-4076-84fa-b4d51d22e3b7"
                         },
@@ -78,8 +83,8 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "layout|flex": null,
-                                "itemId": "substanceQuantityUnit"
+                                "itemId": "substanceQuantityUnit",
+                                "layout|flex": null
                             },
                             "designerId": "05fbdedd-6f1d-4230-954d-db1f68bcf0a7",
                             "masterInstanceId": "18b193e8-d5af-4893-a5da-9032a7b8b400",
@@ -96,7 +101,10 @@
                                         "implHandler": [
                                             "var store = Ext.StoreMgr.get('Unit');\r",
                                             "store.proxy.url = 'http://localhost:8080/databases/GStandDb/indexes/SubstanceUnits?';\r",
-                                            "component.setStore(store);"
+                                            "component.setStore(store);\r",
+                                            "component.setQuantityName('GenericQuantity');\r",
+                                            "component.setUnitName('GenericQuantityUnit');\r",
+                                            ""
                                         ],
                                         "name": "afterrender",
                                         "scope": "me"
@@ -131,8 +139,13 @@
                             "codeClass": null,
                             "userConfig": {
                                 "layout|flex": 1,
+                                "designer|displayName": "Shape",
                                 "fieldLabel": "Shape",
-                                "labelAlign": "top"
+                                "labelAlign": "top",
+                                "name": "Shape",
+                                "displayField": "Name",
+                                "queryMode": "local",
+                                "store": "Shape"
                             },
                             "designerId": "815f282f-b728-4728-a81d-6b4618c3849d"
                         },
@@ -145,9 +158,14 @@
                             "codeClass": null,
                             "userConfig": {
                                 "layout|flex": 1,
+                                "designer|displayName": "Route",
                                 "fieldLabel": "Route",
                                 "labelAlign": "top",
-                                "labelSeparator": " "
+                                "labelSeparator": " ",
+                                "name": "Route",
+                                "displayField": "Name",
+                                "queryMode": "local",
+                                "store": "Route"
                             },
                             "designerId": "2332a33d-177e-468b-9805-138232cd314a"
                         }
@@ -210,8 +228,8 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "layout|flex": 1,
-                                "itemId": "solutionQuantityUnit"
+                                "itemId": "solutionQuantityUnit",
+                                "layout|flex": null
                             },
                             "designerId": "9fa9c41a-d6bf-4b65-aa3b-6286e22d7948",
                             "masterInstanceId": "18b193e8-d5af-4893-a5da-9032a7b8b400",
@@ -1116,6 +1134,7 @@
                 "height": 120,
                 "padding": 10,
                 "width": 700,
+                "designer|displayName": "PrescriptionText",
                 "layout": "fit",
                 "fieldLabel": "Label",
                 "hideLabel": true
@@ -1238,21 +1257,36 @@
                     "        //formPanel.body.stopFx();\r",
                     "        formPanel.body.highlight();\r",
                     "    },\r",
+                    "    \r",
                     "    notifyDrop  : function(ddSource, e, data){\r",
+                    "        var drug = data.records[0].data;\r",
+                    "        var record = PDMSWebView.model.Prescription.create({Generic: drug.Name, Shape: drug.Shape, Route: drug.Route});\r",
+                    "        \r",
+                    "        var genericStore = Ext.StoreMgr.get('Generic');\r",
+                    "        var shapeStore = Ext.StoreMgr.get('Shape');\r",
+                    "        var routeStore = Ext.StoreMgr.get('Route');\r",
+                    "        \r",
+                    "        var genericUnitStore = Ext.StoreMgr.get('Unit');\r",
+                    "        \r",
+                    "        genericStore.removeAll();\r",
+                    "        routeStore.removeAll();\r",
+                    "        shapeStore.removeAll();\r",
+                    "        genericUnitStore.removeAll();\r",
                     "\r",
-                    "        console.log(data.records[0]);\r",
-                    "\r",
-                    "        Ext.Msg.alert('going to prescribe: ' + data.records[0].data.Name);\r",
-                    "        // Reference the record (single selection) for readability\r",
-                    "        //var selectedRecord = ddSource.dragData.selections[0];\r",
-                    "\r",
-                    "\r",
+                    "        shapeStore.proxy.url = 'http://localhost:8080/databases/GStandDb/indexes/ShapesForATC?';\r",
+                    "        routeStore.proxy.url = 'http://localhost:8080/databases/GStandDb/indexes/RoutesForATC?';\r",
+                    "        genericUnitStore.proxy.url = 'http://localhost:8080/databases/GStandDb/indexes/SubstanceUnitsForATC?';\r",
+                    "        \r",
+                    "        console.log(genericUnitStore);\r",
+                    "                \r",
+                    "        var query = 'Id:'  + drug.Id + '*';\r",
+                    "        genericStore.load({params:{query:query}});\r",
+                    "        shapeStore.load({params:{query:query}});\r",
+                    "        routeStore.load({params:{query:query}});\r",
+                    "        genericUnitStore.load({params:{query:query}});\r",
+                    "        \r",
                     "        // Load the record into the form\r",
-                    "        //formPanel.getForm().loadRecord(selectedRecord);\r",
-                    "\r",
-                    "\r",
-                    "        // Delete record from the grid.  not really required.\r",
-                    "        //ddSource.grid.store.remove(selectedRecord);\r",
+                    "        formPanel.getForm().loadRecord(record);\r",
                     "\r",
                     "        return(true);\r",
                     "    }\r",

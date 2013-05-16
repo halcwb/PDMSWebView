@@ -6,12 +6,12 @@
     },
     "codeClass": null,
     "userConfig": {
-        "autoLoad": false,
-        "model": "Unit",
-        "storeId": "unit",
-        "designer|userClassName": "Unit"
+        "model": "Shape",
+        "storeId": "Route",
+        "designer|userClassName": "Route",
+        "groupField": null
     },
-    "designerId": "59519680-380a-4401-b46e-76abd8ab4eab",
+    "designerId": "c0a85312-053a-4e93-89c8-f65d939240ec",
     "cn": [
         {
             "type": "Ext.data.proxy.Ajax",
@@ -21,10 +21,9 @@
             },
             "codeClass": null,
             "userConfig": {
-                "filterParam": null,
-                "url": ""
+                "url": "http://localhost:8080/databases/GStandDb/indexes/Routes?"
             },
-            "designerId": "720e115a-7d61-4800-be6b-7a8137189777",
+            "designerId": "adf235ca-e91e-4f10-8aa3-01cfa25daec5",
             "cn": [
                 {
                     "type": "Ext.data.reader.Json",
@@ -36,7 +35,7 @@
                     "userConfig": {
                         "root": "Results"
                     },
-                    "designerId": "6dc32c8f-a853-483d-9759-7d50f7374a04"
+                    "designerId": "d3d653f3-7df4-453f-934c-faf044a41ee1"
                 }
             ]
         }

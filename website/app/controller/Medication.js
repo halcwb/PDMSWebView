@@ -35,10 +35,6 @@ Ext.define('PDMSWebView.controller.Medication', {
 
     },
 
-    onViewNodeDragOver: function(targetNode, position, dragData, e, eOpts) {
-        Ext.Msg.alert('Going to prescribe ', index);
-    },
-
     showPediatricFormularyText: function(text) {
         console.log(text);
         PDMSWebView.view.PediatricFormularyText.create({html:text.data.Html}).show();
@@ -50,8 +46,7 @@ Ext.define('PDMSWebView.controller.Medication', {
                 viewready: this.onGridpanelViewReady
             },
             "treepanel": {
-                itemdblclick: this.onDrugrepositoryItemDblClick,
-                nodedragover: this.onViewNodeDragOver
+                itemdblclick: this.onDrugrepositoryItemDblClick
             }
         });
     }

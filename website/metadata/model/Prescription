@@ -1,0 +1,79 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Prescription"
+    },
+    "designerId": "a72a064a-9486-4dce-9574-a26ee4df4c31",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Generic",
+                "type": "string"
+            },
+            "designerId": "7e0480ed-7c49-430f-ad8a-016e2fe192d0"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "GenericQuantity",
+                "type": "float"
+            },
+            "designerId": "7919e003-efb9-4aaa-8b8e-58ef53ce0382"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "GenericQuantityUnit",
+                "type": "string"
+            },
+            "designerId": "55a89d90-3fd1-4363-ab49-050b6798bf9a"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Shape",
+                "type": "string"
+            },
+            "designerId": "604b5ec3-5b26-493d-9024-91401e08495f"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Route",
+                "type": "string"
+            },
+            "designerId": "c72901ee-e7d5-46ea-8455-b6ca811f41cf"
+        }
+    ]
+}

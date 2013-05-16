@@ -6,12 +6,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "autoLoad": false,
-        "model": "Unit",
-        "storeId": "unit",
-        "designer|userClassName": "Unit"
+        "autoLoad": true,
+        "model": "QuantityUnit",
+        "remoteFilter": true,
+        "storeId": "MyJsonStore6",
+        "designer|userClassName": "QuantityUnit"
     },
-    "designerId": "59519680-380a-4401-b46e-76abd8ab4eab",
+    "designerId": "96f70986-e82a-44f6-beea-09c93cc5bc92",
     "cn": [
         {
             "type": "Ext.data.proxy.Ajax",
@@ -24,7 +25,7 @@
                 "filterParam": null,
                 "url": ""
             },
-            "designerId": "720e115a-7d61-4800-be6b-7a8137189777",
+            "designerId": "ff14e800-3ce2-4e86-9249-295b7ed5d46f",
             "cn": [
                 {
                     "type": "Ext.data.reader.Json",
@@ -36,7 +37,7 @@
                     "userConfig": {
                         "root": "Results"
                     },
-                    "designerId": "6dc32c8f-a853-483d-9759-7d50f7374a04"
+                    "designerId": "43807885-1d3a-4e7d-a46c-5d22d7ab5581"
                 }
             ]
         }

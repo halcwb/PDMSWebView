@@ -15,7 +15,7 @@
 
 Ext.define('PDMSWebView.view.QuantityUnit', {
     extend: 'Ext.form.FieldContainer',
-    alias: 'widget.myfieldcontainer11',
+    alias: 'widget.quantityunit',
 
     layout: {
         align: 'stretch',
@@ -31,19 +31,21 @@ Ext.define('PDMSWebView.view.QuantityUnit', {
             items: [
                 {
                     xtype: 'numberfield',
-                    width: 100,
+                    width: 80,
                     fieldLabel: 'Quantity',
                     labelAlign: 'top',
                     labelSeparator: ' '
                 },
                 {
                     xtype: 'combobox',
+                    flex: 1,
                     width: 100,
                     fieldLabel: 'Unit',
                     labelAlign: 'top',
                     labelSeparator: ' ',
                     editable: false,
                     displayField: 'Name',
+                    queryMode: 'local',
                     valueField: 'Name'
                 }
             ]
@@ -55,6 +57,16 @@ Ext.define('PDMSWebView.view.QuantityUnit', {
     setStore: function(store) {
         var me = this;
         me.items.items[1].store = store;
+    },
+
+    setQuantityName: function(name) {
+        var me = this;
+        me.items.items[0].name = name;
+    },
+
+    setUnitName: function(name) {
+        var me = this;
+        me.items.items[1].name = name;
     }
 
 });

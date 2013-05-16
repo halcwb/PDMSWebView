@@ -6,9 +6,9 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "Generic"
+        "designer|userClassName": "Shape"
     },
-    "designerId": "766b173c-b99d-43fd-a4c2-e751bb85d8d1",
+    "designerId": "0fedcd6e-9813-4e97-b1a1-7238fcfe3321",
     "cn": [
         {
             "type": "Ext.data.Field",
@@ -18,11 +18,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "mapping": "Id",
-                "name": "Id",
+                "name": "ID",
                 "type": "string"
             },
-            "designerId": "ef287d76-d7d0-4541-ad3d-bb8f2923a931"
+            "designerId": "f51df185-9241-4402-8674-2a5db4aa3d21"
         },
         {
             "type": "Ext.data.Field",
@@ -32,11 +31,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "mapping": "Name",
                 "name": "Name",
                 "type": "string"
             },
-            "designerId": "f1a995e9-f732-44be-b1e0-8f7eb97709a4"
+            "designerId": "ff4b2a2d-42d8-4fb9-8064-1908a07b06e6"
         }
     ]
 }

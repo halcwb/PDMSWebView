@@ -6,9 +6,9 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "Generic"
+        "designer|userClassName": "QuantityUnit"
     },
-    "designerId": "766b173c-b99d-43fd-a4c2-e751bb85d8d1",
+    "designerId": "c8d0e3d8-6917-4e6c-9cc4-be3cdf1a6970",
     "cn": [
         {
             "type": "Ext.data.Field",
@@ -18,11 +18,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "mapping": "Id",
                 "name": "Id",
                 "type": "string"
             },
-            "designerId": "ef287d76-d7d0-4541-ad3d-bb8f2923a931"
+            "designerId": "1942cc1e-3f4f-4205-a75d-de502638de2b"
         },
         {
             "type": "Ext.data.Field",
@@ -32,11 +31,23 @@
             },
             "codeClass": null,
             "userConfig": {
-                "mapping": "Name",
-                "name": "Name",
+                "name": "Quantity",
+                "type": "float"
+            },
+            "designerId": "af03f7ee-6a72-47d5-ad19-79e437aa4ff7"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Unit",
                 "type": "string"
             },
-            "designerId": "f1a995e9-f732-44be-b1e0-8f7eb97709a4"
+            "designerId": "db16c408-a36d-4aa4-a379-3d7ae74cb36a"
         }
     ]
 }

@@ -76,25 +76,6 @@
                 ]
             },
             "designerId": "9839ab75-3fc1-4028-9b72-16a97a366f82"
-        },
-        {
-            "type": "controlleraction",
-            "reference": {
-                "name": "listeners",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "fn": "onViewNodeDragOver",
-                "implHandler": [
-                    "Ext.Msg.alert('Going to prescribe ', index);"
-                ],
-                "name": "nodedragover",
-                "scope": "me",
-                "designer|targetType": "Ext.tree.View",
-                "designer|controlQuery": "treepanel"
-            },
-            "designerId": "d0e5a799-5de7-4a77-bf56-509a2ac3acc8"
         }
     ]
 }

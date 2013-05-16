@@ -8,9 +8,10 @@
     "userConfig": {
         "container|align": "stretch",
         "height": null,
+        "itemId": null,
         "width": null,
         "designer|userClassName": "QuantityUnit",
-        "designer|userAlias": "myfieldcontainer11",
+        "designer|userAlias": "quantityunit",
         "layout": "hbox",
         "fieldLabel": "Label",
         "hideLabel": true
@@ -26,7 +27,7 @@
             "codeClass": null,
             "userConfig": {
                 "layout|flex": null,
-                "width": 100,
+                "width": 80,
                 "designer|displayName": "Quantity",
                 "fieldLabel": "Quantity",
                 "labelAlign": "top",
@@ -42,7 +43,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "layout|flex": null,
+                "layout|flex": 1,
                 "width": 100,
                 "designer|displayName": "Unit",
                 "fieldLabel": "Unit",
@@ -50,6 +51,7 @@
                 "labelSeparator": " ",
                 "editable": false,
                 "displayField": "Name",
+                "queryMode": "local",
                 "store": null,
                 "valueField": "Name"
             },
@@ -73,6 +75,44 @@
                 ]
             },
             "designerId": "225764fe-4bf3-4484-a412-b7b38ecb43a4"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "setQuantityName",
+                "designer|params": [
+                    "name"
+                ],
+                "implHandler": [
+                    "var me = this;\r",
+                    "me.items.items[0].name = name;"
+                ]
+            },
+            "designerId": "13917dc0-11ac-4754-9168-725fe5d29cd6"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "setUnitName",
+                "designer|params": [
+                    "name"
+                ],
+                "implHandler": [
+                    "var me = this;\r",
+                    "me.items.items[1].name = name;"
+                ]
+            },
+            "designerId": "8652ab17-40c3-450d-9427-312e20aea461"
         }
     ]
 }

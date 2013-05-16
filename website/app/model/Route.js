@@ -16,10 +16,6 @@
 Ext.define('PDMSWebView.model.Route', {
     extend: 'Ext.data.Model',
 
-    uses: [
-        'PDMSWebView.model.Product'
-    ],
-
     fields: [
         {
             name: 'ID',
@@ -29,9 +25,5 @@ Ext.define('PDMSWebView.model.Route', {
             name: 'Name',
             type: 'string'
         }
-    ],
-
-    hasMany: {
-        model: 'PDMSWebView.model.Product'
-    }
+    ]
 });

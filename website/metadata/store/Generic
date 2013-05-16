@@ -6,12 +6,11 @@
     },
     "codeClass": null,
     "userConfig": {
-        "autoLoad": false,
-        "model": "Unit",
-        "storeId": "unit",
-        "designer|userClassName": "Unit"
+        "model": "Generic",
+        "storeId": "generic",
+        "designer|userClassName": "Generic"
     },
-    "designerId": "59519680-380a-4401-b46e-76abd8ab4eab",
+    "designerId": "6f5355e3-da2a-4bfe-b4f8-b9e27719c5b2",
     "cn": [
         {
             "type": "Ext.data.proxy.Ajax",
@@ -21,10 +20,9 @@
             },
             "codeClass": null,
             "userConfig": {
-                "filterParam": null,
-                "url": ""
+                "url": "http://localhost:8080/databases/GStandDb/indexes/Generics?"
             },
-            "designerId": "720e115a-7d61-4800-be6b-7a8137189777",
+            "designerId": "9c942162-73b2-4047-875e-ea417a175886",
             "cn": [
                 {
                     "type": "Ext.data.reader.Json",
@@ -36,7 +34,7 @@
                     "userConfig": {
                         "root": "Results"
                     },
-                    "designerId": "6dc32c8f-a853-483d-9759-7d50f7374a04"
+                    "designerId": "c76fc255-0d28-4f4a-a6d2-52c969488ae4"
                 }
             ]
         }

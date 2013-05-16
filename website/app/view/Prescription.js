@@ -54,10 +54,14 @@ Ext.define('PDMSWebView.view.Prescription', {
                                     xtype: 'combobox',
                                     flex: 1,
                                     fieldLabel: 'Substance',
-                                    labelAlign: 'top'
+                                    labelAlign: 'top',
+                                    name: 'Generic',
+                                    displayField: 'Name',
+                                    queryMode: 'local',
+                                    store: 'Generic'
                                 },
                                 {
-                                    xtype: 'myfieldcontainer11',
+                                    xtype: 'quantityunit',
                                     itemId: 'substanceQuantityUnit',
                                     listeners: {
                                         afterrender: {
@@ -81,14 +85,22 @@ Ext.define('PDMSWebView.view.Prescription', {
                                     xtype: 'combobox',
                                     flex: 1,
                                     fieldLabel: 'Shape',
-                                    labelAlign: 'top'
+                                    labelAlign: 'top',
+                                    name: 'Shape',
+                                    displayField: 'Name',
+                                    queryMode: 'local',
+                                    store: 'Shape'
                                 },
                                 {
                                     xtype: 'combobox',
                                     flex: 1,
                                     fieldLabel: 'Route',
                                     labelAlign: 'top',
-                                    labelSeparator: ' '
+                                    labelSeparator: ' ',
+                                    name: 'Route',
+                                    displayField: 'Name',
+                                    queryMode: 'local',
+                                    store: 'Route'
                                 }
                             ]
                         }
@@ -118,8 +130,7 @@ Ext.define('PDMSWebView.view.Prescription', {
                                     labelAlign: 'top'
                                 },
                                 {
-                                    xtype: 'myfieldcontainer11',
-                                    flex: 1,
+                                    xtype: 'quantityunit',
                                     itemId: 'solutionQuantityUnit',
                                     listeners: {
                                         afterrender: {
@@ -640,6 +651,9 @@ Ext.define('PDMSWebView.view.Prescription', {
         var store = Ext.StoreMgr.get('Unit');
         store.proxy.url = 'http://localhost:8080/databases/GStandDb/indexes/SubstanceUnits?';
         component.setStore(store);
+        component.setQuantityName('GenericQuantity');
+        component.setUnitName('GenericQuantityUnit');
+
     },
 
     onFieldcontainerAfterRender1: function(component, eOpts) {
@@ -662,21 +676,36 @@ Ext.define('PDMSWebView.view.Prescription', {
                 //formPanel.body.stopFx();
                 formPanel.body.highlight();
             },
+
             notifyDrop  : function(ddSource, e, data){
+                var drug = data.records[0].data;
+                var record = PDMSWebView.model.Prescription.create({Generic: drug.Name, Shape: drug.Shape, Route: drug.Route});
 
-                console.log(data.records[0]);
+                var genericStore = Ext.StoreMgr.get('Generic');
+                var shapeStore = Ext.StoreMgr.get('Shape');
+                var routeStore = Ext.StoreMgr.get('Route');
 
-                Ext.Msg.alert('going to prescribe: ' + data.records[0].data.Name);
-                // Reference the record (single selection) for readability
-                //var selectedRecord = ddSource.dragData.selections[0];
+                var genericUnitStore = Ext.StoreMgr.get('Unit');
 
+                genericStore.removeAll();
+                routeStore.removeAll();
+                shapeStore.removeAll();
+                genericUnitStore.removeAll();
+
+                shapeStore.proxy.url = 'http://localhost:8080/databases/GStandDb/indexes/ShapesForATC?';
+                routeStore.proxy.url = 'http://localhost:8080/databases/GStandDb/indexes/RoutesForATC?';
+                genericUnitStore.proxy.url = 'http://localhost:8080/databases/GStandDb/indexes/SubstanceUnitsForATC?';
+
+                console.log(genericUnitStore);
+
+                var query = 'Id:'  + drug.Id + '*';
+                genericStore.load({params:{query:query}});
+                shapeStore.load({params:{query:query}});
+                routeStore.load({params:{query:query}});
+                genericUnitStore.load({params:{query:query}});
 
                 // Load the record into the form
-                //formPanel.getForm().loadRecord(selectedRecord);
-
-
-                // Delete record from the grid.  not really required.
-                //ddSource.grid.store.remove(selectedRecord);
+                formPanel.getForm().loadRecord(record);
 
                 return(true);
             }

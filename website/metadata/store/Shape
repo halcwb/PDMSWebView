@@ -6,12 +6,11 @@
     },
     "codeClass": null,
     "userConfig": {
-        "autoLoad": false,
-        "model": "Unit",
-        "storeId": "unit",
-        "designer|userClassName": "Unit"
+        "model": "Shape",
+        "storeId": "Shape",
+        "designer|userClassName": "Shape"
     },
-    "designerId": "59519680-380a-4401-b46e-76abd8ab4eab",
+    "designerId": "a8609b40-7d3f-4578-9125-843ae4f59962",
     "cn": [
         {
             "type": "Ext.data.proxy.Ajax",
@@ -21,10 +20,9 @@
             },
             "codeClass": null,
             "userConfig": {
-                "filterParam": null,
-                "url": ""
+                "url": "http://localhost:8080/databases/GStandDb/indexes/Shapes?"
             },
-            "designerId": "720e115a-7d61-4800-be6b-7a8137189777",
+            "designerId": "e7219d2e-5be2-4b17-aa60-b65f12f460b8",
             "cn": [
                 {
                     "type": "Ext.data.reader.Json",
@@ -36,7 +34,7 @@
                     "userConfig": {
                         "root": "Results"
                     },
-                    "designerId": "6dc32c8f-a853-483d-9759-7d50f7374a04"
+                    "designerId": "25be4650-d117-4683-9d29-f606535896ee"
                 }
             ]
         }
